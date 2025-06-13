@@ -1,0 +1,116 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #fefefe;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Flashcard container */
+.flashcard-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Card styling */
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Greek word */
+#greek-word {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* English word */
+#english-translation {
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Button styling */
+#next-btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.2rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#next-btn:hover {
+    background-color: #005bb5;
+}
+.button-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.button-row button {
+    flex: 1;
+    padding: 16px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#next-btn {
+    background-color: #0066cc;
+    color: white;
+}
+
+#next-btn:hover {
+    background-color: #005bb5;
+}
+
+#shuffle-btn {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#shuffle-btn:hover {
+    background-color: #e0e0e0;
+}
+
+#reveal-btn {
+    background-color: #ffdf8c;
+    color: #333;
+}
+
+#reveal-btn:hover {
+    background-color: #ffce5a;
+}
