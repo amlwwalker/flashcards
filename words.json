@@ -1,6 +1,422 @@
 [
-  { "greek": "Γειά σου", "english": "Hello" },
-  { "greek": "Ευχαριστώ", "english": "Thank you" },
-  { "greek": "Καλημέρα", "english": "Good morning" },
-  { "greek": "Νερό", "english": "Water" }
-]
+  {
+    "greek":"Πού",
+    "english":"Where",
+    "pronunciation":"POO"
+  },
+  {
+    "greek":"Πότε",
+    "english":"When",
+    "pronunciation":"PÓ-te"
+  },
+  {
+    "greek":"Τι",
+    "english":"What",
+    "pronunciation":"TEE"
+  },
+  {
+    "greek":"Ποιος",
+    "english":"Who (masc.)",
+    "pronunciation":"POE-os"
+  },
+  {
+    "greek":"Ποια",
+    "english":"Who (fem.)",
+    "pronunciation":"PEE-a"
+  },
+  {
+    "greek":"Ποιο",
+    "english":"Which\/What (neuter)",
+    "pronunciation":"PEE-o"
+  },
+  {
+    "greek":"Γιατί",
+    "english":"Why\/Because",
+    "pronunciation":"Ya-TEE"
+  },
+  {
+    "greek":"Πώς",
+    "english":"How",
+    "pronunciation":"POS"
+  },
+  {
+    "greek":"Πόσος",
+    "english":"How much (masc.)",
+    "pronunciation":"POH-sos"
+  },
+  {
+    "greek":"Πόση",
+    "english":"How much (fem.)",
+    "pronunciation":"POH-see"
+  },
+  {
+    "greek":"του \/ της \/ των",
+    "english":"of",
+    "pronunciation":""
+  },
+  {
+    "greek":"σε",
+    "english":"to",
+    "pronunciation":""
+  },
+  {
+    "greek":"για",
+    "english":"for",
+    "pronunciation":""
+  },
+  {
+    "greek":"με",
+    "english":"with",
+    "pronunciation":""
+  },
+  {
+    "greek":"σε",
+    "english":"in",
+    "pronunciation":""
+  },
+  {
+    "greek":"σε",
+    "english":"on",
+    "pronunciation":""
+  },
+  {
+    "greek":"σε",
+    "english":"at",
+    "pronunciation":""
+  },
+  {
+    "greek":"από",
+    "english":"from",
+    "pronunciation":""
+  },
+  {
+    "greek":"από \/ με",
+    "english":"by",
+    "pronunciation":""
+  },
+  {
+    "greek":"για",
+    "english":"about",
+    "pronunciation":""
+  },
+  {
+    "greek":"μεταξύ",
+    "english":"between",
+    "pronunciation":""
+  },
+  {
+    "greek":"μέσα από",
+    "english":"through",
+    "pronunciation":""
+  },
+  {
+    "greek":"χωρίς",
+    "english":"without",
+    "pronunciation":""
+  },
+  {
+    "greek":"πριν",
+    "english":"before",
+    "pronunciation":""
+  },
+  {
+    "greek":"μετά",
+    "english":"after",
+    "pronunciation":""
+  },
+  {
+    "greek":"Είμαι",
+    "english":"to be",
+    "pronunciation":"EE-me"
+  },
+  {
+    "greek":"Έχω",
+    "english":"to have",
+    "pronunciation":"É-ho"
+  },
+  {
+    "greek":"Κάνω",
+    "english":"to do \/ to make",
+    "pronunciation":"KÁ-no"
+  },
+  {
+    "greek":"Λέω",
+    "english":"to say \/ to tell",
+    "pronunciation":"LÉ-o"
+  },
+  {
+    "greek":"Πηγαίνω",
+    "english":"to go",
+    "pronunciation":"pee-GÉ-no"
+  },
+  {
+    "greek":"Βρίσκω",
+    "english":"to find \/ to see",
+    "pronunciation":"VREE-sko"
+  },
+  {
+    "greek":"Μιλάω",
+    "english":"to speak",
+    "pronunciation":"mee-LÁ-o"
+  },
+  {
+    "greek":"Τρώω",
+    "english":"to eat",
+    "pronunciation":"TRÓ-o"
+  },
+  {
+    "greek":"Πίνω",
+    "english":"to drink",
+    "pronunciation":"PÍ-no"
+  },
+  {
+    "greek":"Δουλεύω",
+    "english":"to work",
+    "pronunciation":"thoo-LÉ-vo"
+  },
+  {
+    "greek":"Αγαπώ",
+    "english":"to love",
+    "pronunciation":"a-gha-PO"
+  },
+  {
+    "greek":"Αγοράζω",
+    "english":"to buy",
+    "pronunciation":"a-go-RA-zo"
+  },
+  {
+    "greek":"Χάνω",
+    "english":"to lose",
+    "pronunciation":"KHA-no"
+  },
+  {
+    "greek":"Διαβάζω",
+    "english":"to read",
+    "pronunciation":"thee-a-VA-zo"
+  },
+  {
+    "greek":"Γράφω",
+    "english":"to write",
+    "pronunciation":"GRÁ-fo"
+  },
+  {
+    "greek":"Κοιμάμαι",
+    "english":"to sleep",
+    "pronunciation":"kee-MÁ-me"
+  },
+  {
+    "greek":"Ξέρω",
+    "english":"to know",
+    "pronunciation":"KSÉ-ro"
+  },
+  {
+    "greek":"Από πού είναι ο Κώστας;",
+    "english":"Where is Kostas from?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πόσων χρονών είναι;",
+    "english":"How old is he?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πού μένει;",
+    "english":"Where does he live?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πόσους αδερφούς ή αδερφές έχει;",
+    "english":"How many brothers or sisters does he have?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Τι δουλειά κάνει ο πατέρας του;",
+    "english":"What work does his father do?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Τι δουλειά κάνει η μητέρα του;",
+    "english":"What work does his mother do?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πού πηγαίνει κάθε μέρα;",
+    "english":"Where does he go every day?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Τι του αρέσει πολύ;",
+    "english":"What does he like a lot?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πόσο καιρό είναι παντρεμένοι οι γονείς του;",
+    "english":"How long have his parents been married?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πού πηγαίνουν οι γονείς του τα Σάββατα;",
+    "english":"Where do his parents go on Saturdays?",
+    "pronunciation":""
+  },
+  {
+    "greek":"Πού πηγαίνει όλη η οικογένεια τις Κυριακές;",
+    "english":"Where does the whole family go on Sundays?",
+    "pronunciation":""
+  },
+    {
+      "greek": "εγώ αγοράζω",
+      "english": "I buy",
+      "pronunciation": "a-go-RA-zo"
+    },
+    {
+      "greek": "εσύ αγοράζεις",
+      "english": "you buy (singular)",
+      "pronunciation": "a-go-RA-zees"
+    },
+    {
+      "greek": "αυτός/αυτή/αυτό αγοράζει",
+      "english": "he/she/it buys",
+      "pronunciation": "a-go-RA-zee"
+    },
+    {
+      "greek": "εμείς αγοράζουμε",
+      "english": "we buy",
+      "pronunciation": "a-go-RA-zoo-me"
+    },
+    {
+      "greek": "εσείς αγοράζετε",
+      "english": "you buy (plural/formal)",
+      "pronunciation": "a-go-RA-ze-te"
+    },
+    {
+      "greek": "αυτοί/αυτές/αυτά αγοράζουν",
+      "english": "they buy",
+      "pronunciation": "a-go-RA-zoun"
+    },
+  {
+    "greek": "μήλα",
+    "english": "apples",
+    "pronunciation": "MEE-la"
+  },
+  {
+    "greek": "κρεμμύδια",
+    "english": "onions",
+    "pronunciation": "kre-MEE-thya"
+  },
+  {
+    "greek": "ζαμπόν",
+    "english": "ham",
+    "pronunciation": "zam-PON"
+  },
+  {
+    "greek": "αναψυκτικά",
+    "english": "soft drinks",
+    "pronunciation": "a-na-psi-KTEE-ka"
+  },
+  {
+    "greek": "φιλικός",
+    "english": "friendly",
+    "pronunciation": "fee-lee-KOS"
+  },
+  {
+    "greek": "το ταμείο",
+    "english": "the cash register",
+    "pronunciation": "to ta-MEE-o"
+  },
+  {
+    "greek": "μανταρίνια",
+    "english": "mandarins",
+    "pronunciation": "man-da-REE-nya"
+  },
+  {
+    "greek": "καρότα",
+    "english": "carrots",
+    "pronunciation": "ka-RO-ta"
+  },
+  {
+    "greek": "μπισκότα",
+    "english": "cookies",
+    "pronunciation": "bee-SKÓ-ta"
+  },
+  {
+    "greek": "μακαρόνια",
+    "english": "pasta",
+    "pronunciation": "ma-ka-RÓ-nya"
+  },
+  {
+    "greek": "πατάτες",
+    "english": "potatoes",
+    "pronunciation": "pa-TÁ-tes"
+  },
+  {
+    "greek": "χυμός πορτοκάλι",
+    "english": "orange juice",
+    "pronunciation": "khee-MÓS por-to-KÁ-lee"
+  },
+  {
+    "greek": "σπάνια",
+    "english": "rarely",
+    "pronunciation": "SPÁ-nya"
+  },
+  {
+    "greek": "εγώ είμαι",
+    "english": "I am",
+    "pronunciation": "EE-me"
+  },
+  {
+    "greek": "εσύ είσαι",
+    "english": "you are (singular)",
+    "pronunciation": "EE-se"
+  },
+  {
+    "greek": "αυτός/αυτή/αυτό είναι",
+    "english": "he/she/it is",
+    "pronunciation": "EE-neh"
+  },
+  {
+    "greek": "εμείς είμαστε",
+    "english": "we are",
+    "pronunciation": "EE-mas-te"
+  },
+  {
+    "greek": "εσείς είστε",
+    "english": "you are (plural/formal)",
+    "pronunciation": "EES-te"
+  },
+  {
+    "greek": "αυτοί/αυτές/αυτά είναι",
+    "english": "they are",
+    "pronunciation": "EE-neh"
+  },
+  {
+    "greek": "εγώ έχω",
+    "english": "I have",
+    "pronunciation": "É-ho"
+  },
+  {
+    "greek": "εσύ έχεις",
+    "english": "you have (singular)",
+    "pronunciation": "É-hees"
+  },
+  {
+    "greek": "αυτός/αυτή/αυτό έχει",
+    "english": "he/she/it has",
+    "pronunciation": "É-hee"
+  },
+  {
+    "greek": "εμείς έχουμε",
+    "english": "we have",
+    "pronunciation": "É-hoo-me"
+  },
+  {
+    "greek": "εσείς έχετε",
+    "english": "you have (plural/formal)",
+    "pronunciation": "É-he-te"
+  },
+  {
+    "greek": "αυτοί/αυτές/αυτά έχουν",
+    "english": "they have",
+    "pronunciation": "É-hoon"
+  }
+  ]

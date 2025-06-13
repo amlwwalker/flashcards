@@ -114,3 +114,8 @@ body {
 #reveal-btn:hover {
     background-color: #ffce5a;
 }
+#pronunciation {
+    font-size: 1.3rem;
+    color: #888;
+    margin-bottom: 10px;
+}
