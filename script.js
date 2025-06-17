@@ -8,24 +8,178 @@ const nextBtn = document.getElementById('next-btn');
 const shuffleBtn = document.getElementById('shuffle-btn');
 const revealBtn = document.getElementById('reveal-btn');
 
-fetch('words.json')
-    .then(res => res.json())
-    .then(data => {
-        words = data;
-        showWord();
-    });
+// set the max number of chapters
+const MAX_CHAPTERS = 4;
+
+async function loadChapters(chapterMode = true, chapterNumber = 1) {
+    words = [];
+    currentIndex = 0;
+
+    if (chapterMode) {
+        console.log("Loading chapter", chapterNumber);
+        try {
+            const res = await fetch(`chapters/${chapterNumber}.json`);
+            const raw = await res.json();
+            words = normalizeData(raw, chapterNumber);
+        } catch (e) {
+            console.error(`Error loading chapter ${chapterNumber}`, e);
+        }
+    } else {
+        console.log("Loading all chapters");
+        const promises = [];
+        for (let i = 1; i <= MAX_CHAPTERS; i++) {
+            promises.push(
+                fetch(`chapters/${i}.json`)
+                    .then(res => res.json())
+                    .then(raw => normalizeData(raw, i))
+                    .catch(err => {
+                        console.error(`Error loading chapter ${i}`, err);
+                        return []; // fail-safe fallback
+                    })
+            );
+        }
+        const results = await Promise.all(promises);
+        words = results.flat();
+    }
+
+    if (words.length === 0) {
+        greekEl.textContent = "No words loaded.";
+        englishEl.textContent = "";
+        return;
+    }
+
+    const chapterSelect = document.getElementById('chapter-select');
+    const loadAllBtn = document.getElementById('load-all');
+
+// Highlight logic
+    if (chapterMode) {
+        chapterSelect.value = chapterNumber;
+        loadAllBtn.classList.remove('active-mode');
+    } else {
+        chapterSelect.value = ""; // Reset dropdown
+        loadAllBtn.classList.add('active-mode');
+    }
+    shuffleWords();
+    showWord();
+}
+
+function normalizeData(rawData, chapterNum = null) {
+    const entries = [];
+
+    const pushList = (list, type) => {
+        if (rawData[list]) {
+            for (const item of rawData[list]) {
+                if (item.greek && item.english) {
+                    entries.push({ ...item, type, chapter: chapterNum });
+                }
+            }
+        }
+    };
+
+    pushList('phrases', 'phrase');
+    pushList('questions', 'question');
+    pushList('verbs', 'verb');
+    pushList('nouns', 'noun');
+    pushList('adjectives', 'adjective');
+    pushList('adverbs', 'adverb');
+    pushList('prepositions', 'preposition');
+
+    if (rawData.verb_conjugations) {
+        for (const v of rawData.verb_conjugations) {
+            if (v.verb && Array.isArray(v.forms)) {
+                for (const f of v.forms) {
+                    entries.push({
+                        greek: f.greek,
+                        english: f.english,
+                        pronunciation: f.pronunciation || '',
+                        baseVerb: v.verb,
+                        type: 'verb',
+                        chapter: chapterNum
+                    });
+                }
+            } else if (v.greek && v.english) {
+                entries.push({
+                    greek: v.greek,
+                    english: v.english,
+                    pronunciation: v.pronunciation || '',
+                    type: 'verb',
+                    chapter: chapterNum
+                });
+            }
+        }
+    }
+
+    return entries;
+}
 
 function showWord() {
     clearTimeout(timeout);
     const word = words[currentIndex];
+
     greekEl.textContent = word.greek;
     englishEl.textContent = word.english;
     englishEl.classList.add('hidden');
 
+    const pronunciationEl = document.getElementById('pronunciation');
+    pronunciationEl.textContent = word.pronunciation || '';
+    pronunciationEl.classList.add('hidden');
+
+    const typeColor = getTypeColor(word.type);
+    greekEl.innerHTML = `<span class="type-dot" style="background-color: ${typeColor};"></span> ${word.greek}`;
+
     timeout = setTimeout(() => {
         englishEl.classList.remove('hidden');
+        pronunciationEl.classList.remove('hidden');
     }, 5000);
 }
+
+function getTypeColor(type) {
+    switch (type) {
+        case 'phrase': return 'blue';
+        case 'verb': return 'green';
+        case 'noun': return 'orange';
+        case 'adjective': return 'purple';
+        case 'adverb': return 'brown';
+        case 'question': return 'teal';
+        case 'preposition': return 'maroon';
+        default: return 'gray';
+    }
+}
+
+const searchInput = document.getElementById('search-input');
+const searchResults = document.getElementById('search-results');
+
+// Normalize Greek accents and characters
+function normalizeGreek(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function normalizeString(str) {
+    return str ? normalizeGreek(str).toLowerCase() : "";
+}
+
+searchInput.addEventListener('input', () => {
+    const query = normalizeString(searchInput.value.trim());
+    if (!query) {
+        searchResults.classList.add('hidden');
+        return;
+    }
+
+    const matches = words.filter(word =>
+        normalizeString(word.greek).includes(query) ||
+        normalizeString(word.english).includes(query)
+    );
+
+    if (matches.length === 0) {
+        searchResults.innerHTML = '<li>No matches found</li>';
+    } else {
+        searchResults.innerHTML = matches.map(match =>
+            `<li><strong>${match.greek}</strong>: ${match.english}</li>`
+        ).join('');
+    }
+
+    searchResults.classList.remove('hidden');
+});
 
 nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % words.length;
@@ -39,8 +193,10 @@ shuffleBtn.addEventListener('click', () => {
 });
 
 revealBtn.addEventListener('click', () => {
-    clearTimeout(timeout); // cancel auto-reveal
+    clearTimeout(timeout);
     englishEl.classList.remove('hidden');
+    const pronunciationEl = document.getElementById('pronunciation');
+    pronunciationEl.classList.remove('hidden');
 });
 
 function shuffleWords() {
@@ -49,3 +205,7 @@ function shuffleWords() {
         [words[i], words[j]] = [words[j], words[i]];
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    loadChapters(true, 1); // load chapter 1 by default
+});

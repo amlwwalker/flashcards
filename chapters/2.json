@@ -1,0 +1,153 @@
+{
+  "prepositions": [
+    {
+      "greek": "χωρίς",
+      "english": "without",
+      "pronunciation": ""
+    },
+    {
+      "greek": "πριν",
+      "english": "before",
+      "pronunciation": ""
+    },
+    {
+      "greek": "μετά",
+      "english": "after",
+      "pronunciation": ""
+    }
+  ],
+  "verbs": [
+    {
+      "greek": "Είμαι",
+      "english": "to be",
+      "pronunciation": "EE-me"
+    },
+    {
+      "greek": "Έχω",
+      "english": "to have",
+      "pronunciation": "É-ho"
+    },
+    {
+      "greek": "Κάνω",
+      "english": "to do / to make",
+      "pronunciation": "KÁ-no"
+    },
+    {
+      "greek": "Λέω",
+      "english": "to say / to tell",
+      "pronunciation": "LÉ-o"
+    },
+    {
+      "greek": "Πηγαίνω",
+      "english": "to go",
+      "pronunciation": "pee-GÉ-no"
+    },
+    {
+      "greek": "Βρίσκω",
+      "english": "to find / to see",
+      "pronunciation": "VREE-sko"
+    },
+    {
+      "greek": "Μιλάω",
+      "english": "to speak",
+      "pronunciation": "mee-LÁ-o"
+    },
+    {
+      "greek": "Τρώω",
+      "english": "to eat",
+      "pronunciation": "TRÓ-o"
+    },
+    {
+      "greek": "Πίνω",
+      "english": "to drink",
+      "pronunciation": "PÍ-no"
+    },
+    {
+      "greek": "Δουλεύω",
+      "english": "to work",
+      "pronunciation": "thoo-LÉ-vo"
+    },
+    {
+      "greek": "Αγαπώ",
+      "english": "to love",
+      "pronunciation": "a-gha-PO"
+    },
+    {
+      "greek": "Αγοράζω",
+      "english": "to buy",
+      "pronunciation": "a-go-RA-zo"
+    },
+    {
+      "greek": "Χάνω",
+      "english": "to lose",
+      "pronunciation": "KHA-no"
+    },
+    {
+      "greek": "Διαβάζω",
+      "english": "to read",
+      "pronunciation": "thee-a-VA-zo"
+    },
+    {
+      "greek": "Γράφω",
+      "english": "to write",
+      "pronunciation": "GRÁ-fo"
+    },
+    {
+      "greek": "Κοιμάμαι",
+      "english": "to sleep",
+      "pronunciation": "kee-MÁ-me"
+    },
+    {
+      "greek": "Ξέρω",
+      "english": "to know",
+      "pronunciation": "KSÉ-ro"
+    }
+  ],
+  "phrases": [
+    {
+      "greek": "Από πού είναι ο Κώστας;",
+      "english": "Where is Kostas from?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πόσων χρονών είναι;",
+      "english": "How old is he?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πού μένει;",
+      "english": "Where does he live?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πόσους αδερφούς ή αδερφές έχει;",
+      "english": "How many brothers or sisters does he have?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Τι δουλειά κάνει ο πατέρας του;",
+      "english": "What work does his father do?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Τι δουλειά κάνει η μητέρα του;",
+      "english": "What work does his mother do?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πού πηγαίνει κάθε μέρα;",
+      "english": "Where does he go every day?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Τι του αρέσει πολύ;",
+      "english": "What does he like a lot?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πόσο καιρό είναι παντρεμένοι οι γονείς του;",
+      "english": "How long have his parents been married?",
+      "pronunciation": ""
+    }
+  ]
+}

@@ -448,5 +448,35 @@
     "greek": "πάνε",
     "english": "they go",
     "pronunciation": "pane"
+  },
+  {
+    "greek": "Ναι, παρακαλώ",
+    "english": "Yes, please",
+    "pronunciation": "neh, para-ka-LO"
+  },
+  {
+    "greek": "Έχω μια ερώτηση",
+    "english": "I have a question",
+    "pronunciation": "Ékho mia e-RO-ti-si"
+  },
+  {
+    "greek": "Μπορώ να κάνω μια ερώτηση;",
+    "english": "Can I ask a question?",
+    "pronunciation": "bo-RO na KA-no mia e-RO-ti-si?"
+  },
+  {
+    "greek": "Πώς λέμε '___' στα ελληνικά;",
+    "english": "How do we say '___' in Greek?",
+    "pronunciation": "Pos LE-me '___' sta elli-ni-KA?"
+  },
+  {
+    "greek": "Τι σημαίνει αυτή η λέξη;",
+    "english": "What does this word mean?",
+    "pronunciation": "Ti see-MEH-ni af-TEE ee LÉ-xi?"
+  },
+  {
+    "greek": "Πώς λέω αυτό;",
+    "english": "How do I say this?",
+    "pronunciation": "Pos LÉ-o af-TÓ?"
   }
   ]

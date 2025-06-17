@@ -14,12 +14,40 @@
         <div id="pronunciation" class="hidden"></div>
         <div id="english-translation" class="hidden"></div>
     </div>
+</div>
+
+<div class="controls">
+    <input type="text" id="search-input" placeholder="Search Greek or English..." />
+    <ul id="search-results" class="hidden"></ul>
+    <div class="dropdown-container">
+        <select id="chapter-select">
+            <option value="1">📘 Chapter 1</option>
+            <option value="2">📙 Chapter 2</option>
+            <option value="3">📗 Chapter 3</option>
+            <option value="4">📕 Chapter 4</option>
+        </select>
+        <button id="load-all">📚 All Chapters</button>
+    </div>
+
     <div class="button-row">
         <button id="shuffle-btn">🔀 Shuffle</button>
         <button id="reveal-btn">👁️ Reveal</button>
         <button id="next-btn">Next ➡️</button>
     </div>
 </div>
+
 <script src="script.js"></script>
+<script>
+    document.getElementById('load-all').addEventListener('click', () => {
+        loadChapters(false);
+    });
+
+    document.getElementById('chapter-select').addEventListener('change', (e) => {
+        const chapter = parseInt(e.target.value);
+        if (!isNaN(chapter)) {
+            loadChapters(true, chapter);
+        }
+    });
+</script>
 </body>
 </html>

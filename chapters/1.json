@@ -1,0 +1,96 @@
+{
+  "questions": [
+    {
+      "greek": "Πού",
+      "english": "Where",
+      "pronunciation": "POO"
+    },
+    {
+      "greek": "Πότε",
+      "english": "When",
+      "pronunciation": "PÓ-te"
+    },
+    {
+      "greek": "Τι",
+      "english": "What",
+      "pronunciation": "TEE"
+    },
+    {
+      "greek": "Ποιος",
+      "english": "Who (masc.)",
+      "pronunciation": "POE-os"
+    },
+    {
+      "greek": "Ποια",
+      "english": "Who (fem.)",
+      "pronunciation": "PEE-a"
+    },
+    {
+      "greek": "Ποιο",
+      "english": "Which/What (neuter)",
+      "pronunciation": "PEE-o"
+    },
+    {
+      "greek": "Γιατί",
+      "english": "Why/Because",
+      "pronunciation": "Ya-TEE"
+    },
+    {
+      "greek": "Πώς",
+      "english": "How",
+      "pronunciation": "POS"
+    },
+    {
+      "greek": "Πόσος",
+      "english": "How much (masc.)",
+      "pronunciation": "POH-sos"
+    },
+    {
+      "greek": "Πόση",
+      "english": "How much (fem.)",
+      "pronunciation": "POH-see"
+    }
+  ],
+  "prepositions": [
+    {
+      "greek": "του / της / των",
+      "english": "of",
+      "pronunciation": ""
+    },
+    {
+      "greek": "σε",
+      "english": "to / in / on / at",
+      "pronunciation": ""
+    },
+    {
+      "greek": "για",
+      "english": "for / about",
+      "pronunciation": ""
+    },
+    {
+      "greek": "με",
+      "english": "with",
+      "pronunciation": ""
+    },
+    {
+      "greek": "από",
+      "english": "from",
+      "pronunciation": ""
+    },
+    {
+      "greek": "από / με",
+      "english": "by",
+      "pronunciation": ""
+    },
+    {
+      "greek": "μεταξύ",
+      "english": "between",
+      "pronunciation": ""
+    },
+    {
+      "greek": "μέσα από",
+      "english": "through",
+      "pronunciation": ""
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "phrases": [
+    {
+      "greek": "Ναι, παρακαλώ",
+      "english": "Yes, please",
+      "pronunciation": "neh, para-ka-LO"
+    },
+    {
+      "greek": "Έχω μια ερώτηση",
+      "english": "I have a question",
+      "pronunciation": "Ékho mia e-RO-ti-si"
+    },
+    {
+      "greek": "Μπορώ να κάνω μια ερώτηση;",
+      "english": "Can I ask a question?",
+      "pronunciation": "bo-RO na KA-no mia e-RO-ti-si?"
+    },
+    {
+      "greek": "Πώς λέμε '___' στα ελληνικά;",
+      "english": "How do we say '___' in Greek?",
+      "pronunciation": "Pos LE-me '___' sta elli-ni-KA?"
+    },
+    {
+      "greek": "Τι σημαίνει αυτή η λέξη;",
+      "english": "What does this word mean?",
+      "pronunciation": "Ti see-MEH-ni af-TEE ee LÉ-xi?"
+    },
+    {
+      "greek": "Πώς λέω αυτό;",
+      "english": "How do I say this?",
+      "pronunciation": "Pos LÉ-o af-TÓ?"
+    }
+  ],
+  "verb_conjugations": [
+    {
+      "verb": "είμαι",
+      "meanings": "to be",
+      "forms": [
+        {
+          "greek": "εγώ είμαι",
+          "english": "I am",
+          "pronunciation": "EE-me"
+        },
+        {
+          "greek": "εσύ είσαι",
+          "english": "you are (singular)",
+          "pronunciation": "EE-se"
+        },
+        {
+          "greek": "αυτός/αυτή/αυτό είναι",
+          "english": "he/she/it is",
+          "pronunciation": "EE-neh"
+        },
+        {
+          "greek": "εμείς είμαστε",
+          "english": "we are",
+          "pronunciation": "EE-mas-te"
+        },
+        {
+          "greek": "εσείς είστε",
+          "english": "you are (plural/formal)",
+          "pronunciation": "EES-te"
+        },
+        {
+          "greek": "αυτοί/αυτές/αυτά είναι",
+          "english": "they are",
+          "pronunciation": "EE-neh"
+        }
+      ]
+    },
+    {
+      "verb": "έχω",
+      "meanings": "to have",
+      "forms": [
+        {
+          "greek": "εγώ έχω",
+          "english": "I have",
+          "pronunciation": "É-ho"
+        },
+        {
+          "greek": "εσύ έχεις",
+          "english": "you have (singular)",
+          "pronunciation": "É-hees"
+        },
+        {
+          "greek": "αυτός/αυτή/αυτό έχει",
+          "english": "he/she/it has",
+          "pronunciation": "É-hee"
+        },
+        {
+          "greek": "εμείς έχουμε",
+          "english": "we have",
+          "pronunciation": "É-hoo-me"
+        },
+        {
+          "greek": "εσείς έχετε",
+          "english": "you have (plural/formal)",
+          "pronunciation": "É-he-te"
+        },
+        {
+          "greek": "αυτοί/αυτές/αυτά έχουν",
+          "english": "they have",
+          "pronunciation": "É-hoon"
+        }
+      ]
+    },
+    {
+      "verb": "πάω",
+      "meanings": "to go",
+      "forms": [
+        {
+          "greek": "πάω",
+          "english": "I go",
+          "pronunciation": "pao"
+        },
+        {
+          "greek": "πας",
+          "english": "you go (singular)",
+          "pronunciation": "pas"
+        },
+        {
+          "greek": "πάει",
+          "english": "he/she/it goes",
+          "pronunciation": "paei"
+        },
+        {
+          "greek": "πάμε",
+          "english": "we go",
+          "pronunciation": "pame"
+        },
+        {
+          "greek": "πάτε",
+          "english": "you all go",
+          "pronunciation": "pate"
+        },
+        {
+          "greek": "πάνε",
+          "english": "they go",
+          "pronunciation": "pane"
+        }
+      ]
+    }
+  ]
+}

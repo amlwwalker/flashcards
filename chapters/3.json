@@ -1,0 +1,127 @@
+{
+  "phrases": [
+    {
+      "greek": "Πού πηγαίνουν οι γονείς του τα Σάββατα;",
+      "english": "Where do his parents go on Saturdays?",
+      "pronunciation": ""
+    },
+    {
+      "greek": "Πού πηγαίνει όλη η οικογένεια τις Κυριακές;",
+      "english": "Where does the whole family go on Sundays?",
+      "pronunciation": ""
+    }
+  ],
+  "verb_conjugations": [
+    {
+      "greek": "εγώ αγοράζω",
+      "english": "I buy",
+      "pronunciation": "a-go-RA-zo"
+    },
+    {
+      "greek": "εσύ αγοράζεις",
+      "english": "you buy (singular)",
+      "pronunciation": "a-go-RA-zees"
+    },
+    {
+      "greek": "αυτός/αυτή/αυτό αγοράζει",
+      "english": "he/she/it buys",
+      "pronunciation": "a-go-RA-zee"
+    },
+    {
+      "greek": "εμείς αγοράζουμε",
+      "english": "we buy",
+      "pronunciation": "a-go-RA-zoo-me"
+    },
+    {
+      "greek": "εσείς αγοράζετε",
+      "english": "you buy (plural/formal)",
+      "pronunciation": "a-go-RA-ze-te"
+    },
+    {
+      "greek": "αυτοί/αυτές/αυτά αγοράζουν",
+      "english": "they buy",
+      "pronunciation": "a-go-RA-zoun"
+    },
+    {
+      "greek": "εγώ είμαι",
+      "english": "I am",
+      "pronunciation": "EE-me"
+    },
+    {
+      "greek": "εσύ είσαι",
+      "english": "you are (singular)",
+      "pronunciation": "EE-se"
+    }
+  ],
+  "nouns": [
+    {
+      "greek": "μήλα",
+      "english": "apples",
+      "pronunciation": "MEE-la"
+    },
+    {
+      "greek": "κρεμμύδια",
+      "english": "onions",
+      "pronunciation": "kre-MEE-thya"
+    },
+    {
+      "greek": "ζαμπόν",
+      "english": "ham",
+      "pronunciation": "zam-PON"
+    },
+    {
+      "greek": "αναψυκτικά",
+      "english": "soft drinks",
+      "pronunciation": "a-na-psi-KTEE-ka"
+    },
+    {
+      "greek": "το ταμείο",
+      "english": "the cash register",
+      "pronunciation": "to ta-MEE-o"
+    },
+    {
+      "greek": "μανταρίνια",
+      "english": "mandarins",
+      "pronunciation": "man-da-REE-nya"
+    },
+    {
+      "greek": "καρότα",
+      "english": "carrots",
+      "pronunciation": "ka-RO-ta"
+    },
+    {
+      "greek": "μπισκότα",
+      "english": "cookies",
+      "pronunciation": "bee-SKÓ-ta"
+    },
+    {
+      "greek": "μακαρόνια",
+      "english": "pasta",
+      "pronunciation": "ma-ka-RÓ-nya"
+    },
+    {
+      "greek": "πατάτες",
+      "english": "potatoes",
+      "pronunciation": "pa-TÁ-tes"
+    },
+    {
+      "greek": "χυμός πορτοκάλι",
+      "english": "orange juice",
+      "pronunciation": "khee-MÓS por-to-KÁ-lee"
+    }
+  ],
+  "adverbs": [
+    {
+      "greek": "σπάνια",
+      "english": "rarely",
+      "pronunciation": "SPÁ-nya"
+    }
+  ],
+  "adjectives": [
+    {
+      "greek": "φιλικός",
+      "english": "friendly",
+      "pronunciation": "fee-lee-KOS"
+    }
+  ]
+}
