@@ -1,5 +1,6 @@
 let words = [];
 let currentIndex = 0;
+let currentWord = null;
 let timeout;
 
 const greekEl = document.getElementById('greek-word');
@@ -112,20 +113,17 @@ function normalizeData(rawData, chapterNum = null) {
     return entries;
 }
 
-function showWord() {
+function showWord(overrideWord = null) {
     clearTimeout(timeout);
-    const word = words[currentIndex];
+    const word = overrideWord || (currentIndex >= 0 ? words[currentIndex] : currentWord);
 
-    greekEl.textContent = word.greek;
+    greekEl.innerHTML = `<span class="type-dot" style="background-color: ${getTypeColor(word.type)};"></span> ${word.greek}`;
     englishEl.textContent = word.english;
-    englishEl.classList.add('hidden');
-
     const pronunciationEl = document.getElementById('pronunciation');
     pronunciationEl.textContent = word.pronunciation || '';
-    pronunciationEl.classList.add('hidden');
 
-    const typeColor = getTypeColor(word.type);
-    greekEl.innerHTML = `<span class="type-dot" style="background-color: ${typeColor};"></span> ${word.greek}`;
+    englishEl.classList.add('hidden');
+    pronunciationEl.classList.add('hidden');
 
     timeout = setTimeout(() => {
         englishEl.classList.remove('hidden');
@@ -173,14 +171,29 @@ searchInput.addEventListener('input', () => {
     if (matches.length === 0) {
         searchResults.innerHTML = '<li>No matches found</li>';
     } else {
-        searchResults.innerHTML = matches.map(match =>
-            `<li><strong>${match.greek}</strong>: ${match.english}</li>`
+        searchResults.innerHTML = matches.map((match, index) =>
+            `<li data-index="${index}"><strong>${match.greek}</strong>: ${match.english}</li>`
         ).join('');
     }
 
     searchResults.classList.remove('hidden');
-});
 
+    // Add click handlers for search results
+    const items = searchResults.querySelectorAll('li[data-index]');
+    items.forEach((item, i) => {
+        item.addEventListener('click', () => {
+            const match = matches[i];
+            clearTimeout(timeout);
+
+            currentIndex = -1; // Disable normal rotation
+            currentWord = match;
+            showWord(match);
+
+            searchResults.classList.add('hidden');
+            searchInput.value = '';
+        });
+    });
+});
 nextBtn.addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % words.length;
     showWord();
@@ -207,5 +220,6 @@ function shuffleWords() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadChapters(true, 1); // load chapter 1 by default
+    loadChapters(false); // default: All Chapters
+    highlightAllChaptersButton(); // Optional, if you have a highlight function
 });
