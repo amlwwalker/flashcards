@@ -160,5 +160,87 @@
         }
       ]
     }
+  ],
+  "nouns": [
+    {
+      "greek": "αγόρι",
+      "english": "boy",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "αγόρια",
+      "pronunciation": "a-GO-ri"
+    },
+    {
+      "greek": "κορίτσι",
+      "english": "girl",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "κορίτσια",
+      "pronunciation": "ko-REE-tsee"
+    },
+    {
+      "greek": "άντρας",
+      "english": "man",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "άντρες",
+      "pronunciation": "AN-tras"
+    },
+    {
+      "greek": "γυναίκα",
+      "english": "woman",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "γυναίκες",
+      "pronunciation": "yee-NE-ka"
+    },
+    {
+      "greek": "μωρό",
+      "english": "baby",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "μωρά",
+      "pronunciation": "mo-RO"
+    },
+    {
+      "greek": "γάτα",
+      "english": "cat",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "γάτες",
+      "pronunciation": "GA-ta"
+    },
+    {
+      "greek": "σκύλος",
+      "english": "dog",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "σκύλοι",
+      "pronunciation": "SKEE-los"
+    },
+    {
+      "greek": "ελέφαντας",
+      "english": "elephant",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "ελέφαντες",
+      "pronunciation": "e-LE-fa-ntas"
+    },
+    {
+      "greek": "λιοντάρι",
+      "english": "lion",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "λιοντάρια",
+      "pronunciation": "lyo-DA-ree"
+    },
+    {
+      "greek": "Αμαλία",
+      "english": "Amalia (name)",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "",
+      "pronunciation": "a-ma-LEE-a"
+    }
   ]
 }

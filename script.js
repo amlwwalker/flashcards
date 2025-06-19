@@ -8,7 +8,9 @@ const englishEl = document.getElementById('english-translation');
 const nextBtn = document.getElementById('next-btn');
 const shuffleBtn = document.getElementById('shuffle-btn');
 const revealBtn = document.getElementById('reveal-btn');
+const timerToggleBtn = document.getElementById('timer-toggle');
 
+let timerEnabled = true;
 // set the max number of chapters
 const MAX_CHAPTERS = 4;
 
@@ -117,7 +119,12 @@ function showWord(overrideWord = null) {
     clearTimeout(timeout);
     const word = overrideWord || (currentIndex >= 0 ? words[currentIndex] : currentWord);
 
-    greekEl.innerHTML = `<span class="type-dot" style="background-color: ${getTypeColor(word.type)};"></span> ${word.greek}`;
+    let articlePrefix = '';
+    if (word.type === 'noun' && word.article) {
+        articlePrefix = word.article + ' ';
+    }
+
+    greekEl.innerHTML = `<span class="type-dot" style="background-color: ${getTypeColor(word.type)};"></span> ${articlePrefix}${word.greek}`;
     englishEl.textContent = word.english;
     const pronunciationEl = document.getElementById('pronunciation');
     pronunciationEl.textContent = word.pronunciation || '';
@@ -125,12 +132,13 @@ function showWord(overrideWord = null) {
     englishEl.classList.add('hidden');
     pronunciationEl.classList.add('hidden');
 
-    timeout = setTimeout(() => {
-        englishEl.classList.remove('hidden');
-        pronunciationEl.classList.remove('hidden');
-    }, 5000);
+    if (timerEnabled) {
+        timeout = setTimeout(() => {
+            englishEl.classList.remove('hidden');
+            pronunciationEl.classList.remove('hidden');
+        }, 5000);
+    }
 }
-
 function getTypeColor(type) {
     switch (type) {
         case 'phrase': return 'blue';
@@ -222,4 +230,15 @@ function shuffleWords() {
 document.addEventListener("DOMContentLoaded", () => {
     loadChapters(false); // default: All Chapters
     highlightAllChaptersButton(); // Optional, if you have a highlight function
+});
+timerToggleBtn.addEventListener('click', () => {
+    timerEnabled = !timerEnabled;
+
+    // Cancel any active timer immediately
+    clearTimeout(timeout);
+
+    // Update button style and label
+    timerToggleBtn.classList.toggle('active', timerEnabled);
+    timerToggleBtn.classList.toggle('inactive', !timerEnabled);
+    timerToggleBtn.textContent = timerEnabled ? '⏱️ Timer: ON' : '⏱️ Timer: OFF';
 });

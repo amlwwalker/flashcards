@@ -57,72 +57,100 @@
     {
       "greek": "μήλα",
       "english": "apples",
-      "pronunciation": "MEE-la"
+      "pronunciation": "MEE-la",
+      "article": "τα",
+      "singular": "μήλο"
     },
     {
       "greek": "κρεμμύδια",
       "english": "onions",
-      "pronunciation": "kre-MEE-thya"
+      "pronunciation": "kre-MEE-thya",
+      "article": "τα",
+      "singular": "κρεμμύδι"
     },
     {
       "greek": "ζαμπόν",
       "english": "ham",
-      "pronunciation": "zam-PON"
+      "pronunciation": "zam-PON",
+      "article": "το",
+      "plural": "—"  // uncountable in Greek
     },
     {
       "greek": "αναψυκτικά",
       "english": "soft drinks",
-      "pronunciation": "a-na-psi-KTEE-ka"
+      "pronunciation": "a-na-psi-KTEE-ka",
+      "article": "τα",
+      "singular": "αναψυκτικό"
     },
     {
       "greek": "το ταμείο",
       "english": "the cash register",
-      "pronunciation": "to ta-MEE-o"
+      "pronunciation": "to ta-MEE-o",
+      "article": "το",
+      "plural": "ταμεία"
     },
     {
       "greek": "μανταρίνια",
       "english": "mandarins",
-      "pronunciation": "man-da-REE-nya"
+      "pronunciation": "man-da-REE-nya",
+      "article": "τα",
+      "singular": "μανταρίνι"
     },
     {
       "greek": "καρότα",
       "english": "carrots",
-      "pronunciation": "ka-RO-ta"
+      "pronunciation": "ka-RO-ta",
+      "article": "τα",
+      "singular": "καρότο"
     },
     {
       "greek": "μπισκότα",
       "english": "cookies",
-      "pronunciation": "bee-SKÓ-ta"
+      "pronunciation": "bee-SKÓ-ta",
+      "article": "τα",
+      "singular": "μπισκότο"
     },
     {
       "greek": "μακαρόνια",
       "english": "pasta",
-      "pronunciation": "ma-ka-RÓ-nya"
+      "pronunciation": "ma-ka-RÓ-nya",
+      "article": "τα",
+      "singular": "μακαρόνι"
     },
     {
       "greek": "πατάτες",
       "english": "potatoes",
-      "pronunciation": "pa-TÁ-tes"
+      "pronunciation": "pa-TÁ-tes",
+      "article": "οι",
+      "singular": "πατάτα"
     },
     {
       "greek": "χυμός πορτοκάλι",
       "english": "orange juice",
-      "pronunciation": "khee-MÓS por-to-KÁ-lee"
+      "pronunciation": "khee-MÓS por-to-KÁ-lee",
+      "article": "ο",
+      "plural": "χυμοί πορτοκάλι"
     },
     {
       "greek": "παιδιά",
       "english": "children",
-      "pronunciation": "pa-dγiá (gamma sound)"
+      "pronunciation": "pa-dγiá",
+      "article": "τα",
+      "singular": "παιδί"
     },
     {
       "greek": "εκπαίδευση",
       "english": "education",
-      "pronunciation": "ek-PEH-thef-see"
+      "pronunciation": "ek-PEH-thef-see",
+      "article": "η",
+      "plural": "εκπαιδεύσεις"
     },
     {
       "greek": "παιδεία",
       "english": "education, upbringing (as in pedagogy)",
-      "pronunciation": "peh-THEE-a"
+      "pronunciation": "peh-THEE-a",
+      "article": "η",
+      "plural": "παιδείες"
     }
   ],
   "adverbs": [
