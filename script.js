@@ -12,7 +12,7 @@ const timerToggleBtn = document.getElementById('timer-toggle');
 
 let timerEnabled = true;
 // set the max number of chapters
-const MAX_CHAPTERS = 4;
+const MAX_CHAPTERS = 6;
 
 async function loadChapters(chapterMode = true, chapterNumber = 1) {
     words = [];

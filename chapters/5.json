@@ -1,0 +1,246 @@
+{
+  "nouns": [
+    {
+      "greek": "άντρας",
+      "english": "man, husband",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "άντρες",
+      "pronunciation": "AN-tras"
+    },
+    {
+      "greek": "καθηγήτρια",
+      "english": "female teacher / professor",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "καθηγήτριες",
+      "pronunciation": "ka-thi-YEE-tri-a"
+    },
+    {
+      "greek": "γειτονιά",
+      "english": "neighbourhood",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "γειτονιές",
+      "pronunciation": "yee-to-NYA"
+    },
+    {
+      "greek": "παιδική χαρά",
+      "english": "playground",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "παιδικές χαρές",
+      "pronunciation": "pe-thi-KEE ha-RA"
+    },
+    {
+      "greek": "περίπτερο",
+      "english": "kiosk",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "περίπτερα",
+      "pronunciation": "pe-REE-pte-ro"
+    },
+    {
+      "greek": "χωριάτικη σαλάτα",
+      "english": "Greek salad",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "χωριάτικες σαλάτες",
+      "pronunciation": "ho-RYA-ti-ki sa-LA-ta"
+    },
+    {
+      "greek": "τραμπάλα",
+      "english": "seesaw",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "τραμπάλες",
+      "pronunciation": "tra-BA-la"
+    },
+    {
+      "greek": "τσουλήθρα",
+      "english": "slide",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "τσουλήθρες",
+      "pronunciation": "tsoo-LEE-thra"
+    },
+    {
+      "greek": "μπάλα",
+      "english": "ball",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "μπάλες",
+      "pronunciation": "BA-la"
+    },
+    {
+      "greek": "γρασίδι",
+      "english": "grass",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "γρασίδια",
+      "pronunciation": "gra-SEE-thee"
+    },
+    {
+      "greek": "παιχνίδι",
+      "english": "game/play/toy",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "παιχνίδια",
+      "pronunciation": "peh-KHNEE-thee"
+    }
+  ],
+  "verb_conjugations": [
+    {
+      "verb": "πάω",
+      "meanings": "to go",
+      "forms": [
+        {
+          "greek": "πάω",
+          "english": "I go",
+          "pronunciation": "PA-o"
+        },
+        {
+          "greek": "πας",
+          "english": "you go",
+          "pronunciation": "pas"
+        },
+        {
+          "greek": "πάει",
+          "english": "he/she/it goes",
+          "pronunciation": "PA-ee"
+        },
+        {
+          "greek": "πάμε",
+          "english": "we go",
+          "pronunciation": "PA-me"
+        },
+        {
+          "greek": "πάτε",
+          "english": "you (pl/formal) go",
+          "pronunciation": "PA-te"
+        },
+        {
+          "greek": "πάνε",
+          "english": "they go",
+          "pronunciation": "PA-ne"
+        }
+      ]
+    },
+    {
+      "verb": "μένω",
+      "meanings": "to live / to stay",
+      "forms": [
+        {
+          "greek": "μένω",
+          "english": "I live",
+          "pronunciation": "ME-no"
+        },
+        {
+          "greek": "μένεις",
+          "english": "you live",
+          "pronunciation": "ME-nees"
+        },
+        {
+          "greek": "μένει",
+          "english": "he/she/it lives",
+          "pronunciation": "ME-nee"
+        },
+        {
+          "greek": "μένουμε",
+          "english": "we live",
+          "pronunciation": "ME-noo-me"
+        },
+        {
+          "greek": "μένετε",
+          "english": "you (pl/formal) live",
+          "pronunciation": "ME-ne-te"
+        },
+        {
+          "greek": "μένουν(ε)",
+          "english": "they live",
+          "pronunciation": "ME-noon(-e)"
+        }
+      ]
+    },
+    {
+      "verb": "μιλάω",
+      "meanings": "to speak",
+      "forms": [
+        {
+          "greek": "μιλάω / μιλώ",
+          "english": "I speak",
+          "pronunciation": "mee-LA-o / mee-LO"
+        },
+        {
+          "greek": "μιλάς",
+          "english": "you speak",
+          "pronunciation": "mee-LAS"
+        },
+        {
+          "greek": "μιλάει / μιλά",
+          "english": "he/she/it speaks",
+          "pronunciation": "mee-LA-ee / mee-LA"
+        },
+        {
+          "greek": "μιλάμε",
+          "english": "we speak",
+          "pronunciation": "mee-LA-me"
+        },
+        {
+          "greek": "μιλάτε",
+          "english": "you (pl/formal) speak",
+          "pronunciation": "mee-LA-te"
+        },
+        {
+          "greek": "μιλάνε / μιλούν(ε)",
+          "english": "they speak",
+          "pronunciation": "mee-LA-ne / mee-LOON(-e)"
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "greek": "Δεν πάει στο πάρκο",
+      "english": "He/She doesn't go to the park",
+      "pronunciation": "Then PA-ee sto PAR-ko"
+    },
+    {
+      "greek": "Στο πάρκο υπάρχει μια παιδική χαρά",
+      "english": "In the park, there is a playground",
+      "pronunciation": "Sto PAR-ko ee-PAR-khi mia pe-thi-KEE ha-RA"
+    },
+    {
+      "greek": "Ο Ερμής πάει στο πάρκο",
+      "english": "Hermes goes to the park",
+      "pronunciation": "O Er-MEES PA-ee sto PAR-ko"
+    },
+    [
+      {
+        "greek": "Αυτοί δεν τρώνε μουσακά",
+        "english": "They don't eat moussaka",
+        "pronunciation": "Af-TEE then TRO-ne moo-sa-KA"
+      },
+      {
+        "greek": "Δεν θέλω μουσακά",
+        "english": "I don't want moussaka",
+        "pronunciation": "Then THE-lo moo-sa-KA"
+      },
+      {
+        "greek": "Δεν τρώω μουσακά",
+        "english": "I don't eat moussaka",
+        "pronunciation": "Then TRO-o moo-sa-KA"
+      },
+      {
+        "greek": "Δεν υπάρχει μουσακάς",
+        "english": "There is no moussaka",
+        "pronunciation": "Then ee-PAR-khi moo-sa-KAS"
+      },
+      {
+        "greek": "Η μπάλα είναι πάνω στο γρασίδι",
+        "english": "The ball is on the grass",
+        "pronunciation": "Ee BA-la EE-ne PA-no sto gra-SEE-thee"
+      }
+    ]
+  ]
+}

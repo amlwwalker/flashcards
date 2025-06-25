@@ -1,0 +1,245 @@
+{
+  "nouns": [
+    {
+      "greek": "καφεδάκι",
+      "english": "little coffee (diminutive of coffee)",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "καφεδάκια",
+      "pronunciation": "ka-fe-DA-ki"
+    },
+    {
+      "greek": "φραπέ",
+      "english": "frappé (iced instant coffee)",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "φραπέ",
+      "pronunciation": "fra-PE"
+    },
+    {
+      "greek": "παιδιά",
+      "english": "children",
+      "gender": "neuter (plural)",
+      "article": "τα",
+      "plural": "παιδιά",
+      "pronunciation": "paidh-YA"
+    },
+    {
+      "greek": "εκπαίδευση",
+      "english": "education",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "εκπαιδεύσεις",
+      "pronunciation": "ek-PE-thef-see"
+    },
+    {
+      "greek": "παιδεία",
+      "english": "upbringing / classical education",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "παιδείες",
+      "pronunciation": "peh-THEE-a"
+    },
+    {
+      "greek": "άσσος",
+      "english": "ace",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "άσσοι",
+      "pronunciation": "A-sos"
+    },
+    {
+      "greek": "σολομός",
+      "english": "salmon",
+      "pronunciation": "so-lo-MOS"
+    },
+    {
+      "greek": "παϊδάκια",
+      "english": "little ribs (grilled lamb chops)",
+      "pronunciation": "pa-ee-THA-kya"
+    }
+  ],
+  "verb_conjugations": [
+    {
+      "verb": "κάνω",
+      "meanings": "to do / to make",
+      "forms": [
+        { "greek": "κάνω", "english": "I do", "pronunciation": "KA-no" },
+        { "greek": "κάνεις", "english": "you do", "pronunciation": "KA-nees" },
+        { "greek": "κάνει", "english": "he/she/it does", "pronunciation": "KA-nee" },
+        { "greek": "κάνουμε", "english": "we do", "pronunciation": "KA-noo-me" },
+        { "greek": "κάνετε", "english": "you (pl) do", "pronunciation": "KA-ne-te" },
+        { "greek": "κάνουν(ε)", "english": "they do", "pronunciation": "KA-noon(-e)" }
+      ]
+    },
+    {
+      "verb": "ξέρω",
+      "meanings": "to know",
+      "forms": [
+        { "greek": "ξέρω", "english": "I know", "pronunciation": "KSE-ro" },
+        { "greek": "ξέρεις", "english": "you know", "pronunciation": "KSE-rees" },
+        { "greek": "ξέρει", "english": "he/she/it knows", "pronunciation": "KSE-ree" },
+        { "greek": "ξέρουμε", "english": "we know", "pronunciation": "KSE-roo-me" },
+        { "greek": "ξέρετε", "english": "you (pl) know", "pronunciation": "KSE-re-te" },
+        { "greek": "ξέρουν(ε)", "english": "they know", "pronunciation": "KSE-roon(-e)" }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "greek": "Τα λέμε",
+      "english": "Talk to you later / See you",
+      "pronunciation": "Ta LE-me"
+    },
+    {
+      "greek": "Το φραπέ",
+      "english": "The frappe (iced coffee)",
+      "pronunciation": "to fra-PE"
+    },
+    {
+      "greek": "Το καφεδάκι",
+      "english": "The little coffee (affectionate)",
+      "pronunciation": "to ka-fe-DA-ki"
+    },
+    {
+      "greek": "Τα λέμε",
+      "english": "Talk to you later / See you",
+      "pronunciation": "Ta LE-me"
+    },
+    {
+      "greek": "Το φραπέ",
+      "english": "The frappe (iced coffee)",
+      "pronunciation": "to fra-PE"
+    },
+    {
+      "greek": "Το καφεδάκι",
+      "english": "The little coffee (affectionate)",
+      "pronunciation": "to ka-fe-DA-ki"
+    },
+    {
+      "greek": "ασσόδυο",
+      "english": "ace-two",
+      "pronunciation": "a-SO-thee-o"
+    },
+    {
+      "greek": "διπλές",
+      "english": "doubles",
+      "pronunciation": "thee-PLES"
+    },
+    {
+      "greek": "εξάρες",
+      "english": "double sixes",
+      "pronunciation": "ek-SA-res"
+    },
+    {
+      "greek": "πεντάρες",
+      "english": "double fives",
+      "pronunciation": "pen-TA-res"
+    },
+    {
+      "greek": "τεσσάρες",
+      "english": "double fours",
+      "pronunciation": "te-SA-res"
+    },
+    {
+      "greek": "Κέρδισα",
+      "english": "I won",
+      "pronunciation": "KER-thee-sa"
+    },
+    {
+      "greek": "Νίκησα",
+      "english": "I was victorious / I triumphed",
+      "pronunciation": "NEE-kee-sa"
+    },
+    {
+      "greek": "Τα παιδιά παίζει",
+      "english": "The children play",
+      "pronunciation": "Ta paidh-YA PE-zee"
+    },
+    {
+      "greek": "Είναι στον κόσμο του / της / τους",
+      "english": "He's / she's / they're in their own world",
+      "pronunciation": "EE-ne ston KOZ-mo tou / tees / tous"
+    },
+    {
+      "greek": "Και εγώ",
+      "english": "Me too",
+      "pronunciation": "Ke e-GO"
+    },
+    {
+      "greek": "Κάνω μαθήματα ελληνικών",
+      "english": "I'm taking Greek lessons",
+      "pronunciation": "KA-no ma-THEE-ma-ta e-lee-nee-KON"
+    },
+    {
+      "greek": "Μην κάνετε φασαρία",
+      "english": "Don't make noise",
+      "pronunciation": "Min KA-ne-te fa-sa-REE-a"
+    },
+    {
+      "greek": "Τι κάνει έτσι;",
+      "english": "Why is he/she doing that? / What's with that noise?",
+      "pronunciation": "Ti KA-nee E-tsee?"
+    },
+    {
+      "greek": "Πλάκα μου κάνεις!",
+      "english": "You're joking!",
+      "pronunciation": "PLA-ka moo KA-nees"
+    },
+    {
+      "greek": "Τι κάνουμε τώρα;",
+      "english": "What are we doing now?",
+      "pronunciation": "Ti KA-noo-me TO-ra"
+    },
+    {
+      "greek": "Ποιος το έκανε αυτό;",
+      "english": "Who did that?",
+      "pronunciation": "Pios to E-ka-ne af-TO?"
+    },
+    {
+      "greek": "Δεν ξέρω τι κάνω",
+      "english": "I don’t know what I’m doing",
+      "pronunciation": "Then KSE-ro ti KA-no"
+    },
+    {
+      "greek": "Δεν ξέρω τι να κάνω",
+      "english": "I don’t know what to do",
+      "pronunciation": "Then KSE-ro ti na KA-no"
+    },
+    {
+      "greek": "Έκανε σαν τρελός",
+      "english": "He acted like a madman",
+      "pronunciation": "E-ka-ne san tre-LOS"
+    },
+    {
+      "greek": "Ξέρω να κάνω ποδήλατο",
+      "english": "I know how to ride a bike",
+      "pronunciation": "KSE-ro na KA-no po-THEE-la-to"
+    },
+    {
+      "greek": "Κάνε υπομονή",
+      "english": "Be patient / hang in there",
+      "pronunciation": "KA-ne ee-po-mo-NEE"
+    },
+    {
+      "greek": "Η Σοφία κάνει πάρτι για τα γενέθλιά της",
+      "english": "Sophia is having a party for her birthday",
+      "pronunciation": "Ee So-FEE-a KA-nee PAR-tee ya ta ye-NE-thlee-a tees"
+    },
+    {
+      "greek": "Τι σου έχω κάνει;",
+      "english": "What have I done to you?",
+      "pronunciation": "Ti soo E-ho KA-ne?"
+    },
+    {
+      "greek": "Έχει άσσο στο μανίκι του",
+      "english": "He has an ace up his sleeve",
+      "pronunciation": "E-khee A-so sto ma-NEE-kee tou"
+    },
+    {
+      "greek": "Τα λέμε",
+      "english": "Talk to you later / See you",
+      "pronunciation": "Ta LE-me"
+    }
+  ]
+}
