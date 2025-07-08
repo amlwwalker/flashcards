@@ -1,0 +1,280 @@
+{
+  "verb_conjugations": [
+    {
+      "verb": "αρχίζω",
+      "meanings": "to start / to begin",
+      "forms": [
+        { "greek": "αρχίζω", "english": "I start", "pronunciation": "ar-HEE-zo" },
+        { "greek": "αρχίζεις", "english": "you start", "pronunciation": "ar-HEE-zees" },
+        { "greek": "αρχίζει", "english": "he/she/it starts", "pronunciation": "ar-HEE-zee" },
+        { "greek": "αρχίζουμε", "english": "we start", "pronunciation": "ar-HEE-zou-me" },
+        { "greek": "αρχίζετε", "english": "you (plural/formal) start", "pronunciation": "ar-HEE-ze-te" },
+        { "greek": "αρχίζουν(ε)", "english": "they start", "pronunciation": "ar-HEE-zou-ne" }
+      ]
+    },
+    {
+      "verb": "έχω",
+      "meanings": "to have",
+      "forms": [
+        { "greek": "έχω", "english": "I have", "pronunciation": "E-ho" },
+        { "greek": "έχεις", "english": "you have", "pronunciation": "E-hees" },
+        { "greek": "έχει", "english": "he/she/it has", "pronunciation": "E-hee" },
+        { "greek": "έχουμε", "english": "we have", "pronunciation": "E-hoo-me" },
+        { "greek": "έχετε", "english": "you (plural/formal) have", "pronunciation": "E-he-te" },
+        { "greek": "έχουν(ε)", "english": "they have", "pronunciation": "E-hoo-ne" }
+      ]
+    },
+    {
+      "verb": "κλείνω",
+      "meanings": "to close / to book",
+      "forms": [
+        { "greek": "κλείνω", "english": "I close / book", "pronunciation": "KLEE-no" },
+        { "greek": "κλείνεις", "english": "you close / book", "pronunciation": "KLEE-nees" },
+        { "greek": "κλείνει", "english": "he/she/it closes / books", "pronunciation": "KLEE-nee" },
+        { "greek": "κλείνουμε", "english": "we close / book", "pronunciation": "KLEE-noo-me" },
+        { "greek": "κλείνετε", "english": "you (plural/formal) close / book", "pronunciation": "KLEE-ne-te" },
+        { "greek": "κλείνουν(ε)", "english": "they close / book", "pronunciation": "KLEE-noo-ne" }
+      ]
+    },
+    {
+      "verb": "ζητάω",
+      "meanings": "to ask / to request",
+      "forms": [
+        { "greek": "ζητάω / ζητώ", "english": "I ask", "pronunciation": "zee-TA-o / zee-TO" },
+        { "greek": "ζητάς", "english": "you ask", "pronunciation": "zee-TAS" },
+        { "greek": "ζητάει / ζητεί", "english": "he/she/it asks", "pronunciation": "zee-TA-ee / zee-TEE" },
+        { "greek": "ζητάμε", "english": "we ask", "pronunciation": "zee-TA-me" },
+        { "greek": "ζητάτε", "english": "you (plural/formal) ask", "pronunciation": "zee-TA-te" },
+        { "greek": "ζητάνε / ζητούν(ε)", "english": "they ask", "pronunciation": "zee-TA-ne / zee-TOO-ne" }
+      ]
+    },
+    {
+      "verb": "μένω",
+      "meanings": "to live / to stay",
+      "forms": [
+        { "greek": "μένω", "english": "I live / stay", "pronunciation": "ME-no" },
+        { "greek": "μένεις", "english": "you live / stay", "pronunciation": "ME-nees" },
+        { "greek": "μένει", "english": "he/she/it lives / stays", "pronunciation": "ME-nee" },
+        { "greek": "μένουμε", "english": "we live / stay", "pronunciation": "ME-noo-me" },
+        { "greek": "μένετε", "english": "you (plural/formal) live / stay", "pronunciation": "ME-ne-te" },
+        { "greek": "μένουν(ε)", "english": "they live / stay", "pronunciation": "ME-noo-ne" }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "greek": "Συγγνώμη",
+      "english": "Sorry / Excuse me",
+      "pronunciation": "seeg-NO-mee"
+    },
+    {
+      "greek": "Με λένε...",
+      "english": "My name is...",
+      "pronunciation": "me LE-ne"
+    },
+    {
+      "greek": "Δεν έχω το τηλέφωνό σου.",
+      "english": "I don’t have your phone number.",
+      "pronunciation": "Then E-ho to tee-LE-fo-no sou"
+    },
+    {
+      "greek": "Η κάρτα μου είναι έτοιμη.",
+      "english": "My card is ready.",
+      "pronunciation": "ee KAR-ta mou EE-ne E-tee-mee"
+    },
+    {
+      "greek": "Πόσο μακριά είναι;",
+      "english": "How far is it?",
+      "pronunciation": "PO-so ma-kree-A EE-ne?"
+    },
+    {
+      "greek": "Δεν υπάρχει πρόβλημα!",
+      "english": "There’s no problem!",
+      "pronunciation": "Then ee-PAR-khee PRO-vlee-ma"
+    },
+    {
+      "greek": "Είμαι εδώ.",
+      "english": "I am here.",
+      "pronunciation": "EE-me e-THO"
+    },
+    {
+      "greek": "Η Ελίζα είναι συμμαθήτριά μου.",
+      "english": "Eliza is my classmate.",
+      "pronunciation": "ee e-LEE-za EE-ne see-ma-THEE-tree-a mou"
+    },
+    {
+      "greek": "Ο Παύλος και η Βαρβάρα μένουν με τα τρία παιδιά τους στην Πάτρα.",
+      "english": "Pavlos and Barbara live with their three children in Patras.",
+      "pronunciation": ""
+    }
+  ],
+  "vocab_groups": [
+    {
+      "group": "days_of_week",
+      "title": "Days of the Week",
+      "items": [
+        {
+          "greek": "Δευτέρα",
+          "english": "Monday",
+          "pronunciation": "Deh-FTEH-rah"
+        },
+        {
+          "greek": "Τρίτη",
+          "english": "Tuesday",
+          "pronunciation": "TREE-tee"
+        },
+        {
+          "greek": "Τετάρτη",
+          "english": "Wednesday",
+          "pronunciation": "Teh-TAR-tee"
+        },
+        {
+          "greek": "Πέμπτη",
+          "english": "Thursday",
+          "pronunciation": "PEM-tee"
+        },
+        {
+          "greek": "Παρασκευή",
+          "english": "Friday",
+          "pronunciation": "pah-rah-skeh-VEE"
+        },
+        {
+          "greek": "Σάββατο",
+          "english": "Saturday",
+          "pronunciation": "SAH-va-to"
+        },
+        {
+          "greek": "Κυριακή",
+          "english": "Sunday",
+          "pronunciation": "kee-ryah-KEE"
+        }
+      ]
+    },
+    {
+      "group": "numbers",
+      "title": "Numbers 1–1000",
+      "items": [
+        {
+          "greek": "ένα",
+          "english": "one",
+          "pronunciation": "É-na"
+        },
+        {
+          "greek": "δύο",
+          "english": "two",
+          "pronunciation": "THEE-o"
+        },
+        {
+          "greek": "τρία",
+          "english": "three",
+          "pronunciation": "TREE-a"
+        },
+        {
+          "greek": "τέσσερα",
+          "english": "four",
+          "pronunciation": "TE-se-ra"
+        },
+        {
+          "greek": "πέντε",
+          "english": "five",
+          "pronunciation": "PEN-de"
+        },
+        {
+          "greek": "έξι",
+          "english": "six",
+          "pronunciation": "EK-si"
+        },
+        {
+          "greek": "επτά",
+          "english": "seven",
+          "pronunciation": "ep-TA"
+        },
+        {
+          "greek": "οκτώ",
+          "english": "eight",
+          "pronunciation": "ok-TO"
+        },
+        {
+          "greek": "εννιά",
+          "english": "nine",
+          "pronunciation": "en-YA"
+        },
+        {
+          "greek": "δέκα",
+          "english": "ten",
+          "pronunciation": "THE-ka"
+        },
+        {
+          "greek": "έντεκα",
+          "english": "eleven",
+          "pronunciation": "EN-de-ka"
+        },
+        {
+          "greek": "δώδεκα",
+          "english": "twelve",
+          "pronunciation": "THO-the-ka"
+        },
+        {
+          "greek": "δεκατρία",
+          "english": "thirteen",
+          "pronunciation": "the-ka-TREE-a"
+        },
+        {
+          "greek": "είκοσι",
+          "english": "twenty",
+          "pronunciation": "EE-ko-si"
+        },
+        {
+          "greek": "τριάντα",
+          "english": "thirty",
+          "pronunciation": "tri-AN-da"
+        },
+        {
+          "greek": "σαράντα",
+          "english": "forty",
+          "pronunciation": "sa-RAN-da"
+        },
+        {
+          "greek": "πενήντα",
+          "english": "fifty",
+          "pronunciation": "pe-NEEN-da"
+        },
+        {
+          "greek": "εξήντα",
+          "english": "sixty",
+          "pronunciation": "ek-SEEN-da"
+        },
+        {
+          "greek": "εβδομήντα",
+          "english": "seventy",
+          "pronunciation": "ev-tho-MEEN-da"
+        },
+        {
+          "greek": "ογδόντα",
+          "english": "eighty",
+          "pronunciation": "og-THON-da"
+        },
+        {
+          "greek": "ενενήντα",
+          "english": "ninety",
+          "pronunciation": "e-ne-NEEN-da"
+        },
+        {
+          "greek": "εκατό",
+          "english": "one hundred",
+          "pronunciation": "e-ka-TO"
+        },
+        {
+          "greek": "τετρακόσια εξήντα πέντε",
+          "english": "four hundred sixty five",
+          "pronunciation": "te-tra-KO-sia ek-SEEN-da PEN-de"
+        },
+        {
+          "greek": "χίλια",
+          "english": "one thousand",
+          "pronunciation": "HEE-lia"
+        }
+      ]
+    }
+  ]
+}

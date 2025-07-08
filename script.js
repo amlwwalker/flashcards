@@ -12,7 +12,7 @@ const timerToggleBtn = document.getElementById('timer-toggle');
 
 let timerEnabled = true;
 // set the max number of chapters
-const MAX_CHAPTERS = 6;
+const MAX_CHAPTERS = 7;
 
 async function loadChapters(chapterMode = true, chapterNumber = 1) {
     words = [];
@@ -86,7 +86,21 @@ function normalizeData(rawData, chapterNum = null) {
     pushList('adjectives', 'adjective');
     pushList('adverbs', 'adverb');
     pushList('prepositions', 'preposition');
-
+    if (rawData.vocab_groups) {
+        for (const group of rawData.vocab_groups) {
+            const type = group.group || 'vocab_group';
+            for (const item of group.items) {
+                if (item.greek && item.english) {
+                    entries.push({
+                        ...item,
+                        type: type,
+                        chapter: chapterNum,
+                        groupTitle: group.title || type
+                    });
+                }
+            }
+        }
+    }
     if (rawData.verb_conjugations) {
         for (const v of rawData.verb_conjugations) {
             if (v.verb && Array.isArray(v.forms)) {
