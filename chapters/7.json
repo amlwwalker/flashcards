@@ -13,6 +13,30 @@
       ]
     },
     {
+      "verb": "δουλεύω",
+      "meanings": "to work",
+      "forms": [
+        { "greek": "δουλεύω", "english": "I work", "pronunciation": "thoo-LEH-vo" },
+        { "greek": "δουλεύεις", "english": "you work", "pronunciation": "thoo-LEH-vees" },
+        { "greek": "δουλεύει", "english": "he/she/it works", "pronunciation": "thoo-LEH-vee" },
+        { "greek": "δουλεύουμε", "english": "we work", "pronunciation": "thoo-LEH-vou-me" },
+        { "greek": "δουλεύετε", "english": "you (plural/formal) work", "pronunciation": "thoo-LEH-ve-te" },
+        { "greek": "δουλεύουν(ε)", "english": "they work", "pronunciation": "thoo-LEH-vou-ne" }
+      ]
+    },
+    {
+      "verb": "μαθαίνω",
+      "meanings": "to learn",
+      "forms": [
+        { "greek": "μαθαίνω", "english": "I learn", "pronunciation": "ma-THEN-o" },
+        { "greek": "μαθαίνεις", "english": "you learn", "pronunciation": "ma-THEN-ees" },
+        { "greek": "μαθαίνει", "english": "he/she/it learns", "pronunciation": "ma-THEN-ee" },
+        { "greek": "μαθαίνουμε", "english": "we learn", "pronunciation": "ma-THEN-ou-me" },
+        { "greek": "μαθαίνετε", "english": "you (plural/formal) learn", "pronunciation": "ma-THEN-e-te" },
+        { "greek": "μαθαίνουν(ε)", "english": "they learn", "pronunciation": "ma-THEN-ou-ne" }
+      ]
+    },
+    {
       "verb": "έχω",
       "meanings": "to have",
       "forms": [
