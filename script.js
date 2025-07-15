@@ -9,6 +9,7 @@ const nextBtn = document.getElementById('next-btn');
 const shuffleBtn = document.getElementById('shuffle-btn');
 const revealBtn = document.getElementById('reveal-btn');
 const timerToggleBtn = document.getElementById('timer-toggle');
+let quickAccessGroups = [];
 
 let timerEnabled = true;
 // set the max number of chapters
@@ -64,6 +65,7 @@ async function loadChapters(chapterMode = true, chapterNumber = 1) {
     }
     shuffleWords();
     showWord();
+    renderQuickAccessButtons();
 }
 
 function normalizeData(rawData, chapterNum = null) {
@@ -89,16 +91,19 @@ function normalizeData(rawData, chapterNum = null) {
     if (rawData.vocab_groups) {
         for (const group of rawData.vocab_groups) {
             const type = group.group || 'vocab_group';
-            for (const item of group.items) {
-                if (item.greek && item.english) {
-                    entries.push({
-                        ...item,
-                        type: type,
-                        chapter: chapterNum,
-                        groupTitle: group.title || type
-                    });
-                }
-            }
+            const items = group.items.filter(item => item.greek && item.english).map(item => ({
+                ...item,
+                type: type,
+                chapter: chapterNum,
+                groupTitle: group.title || type
+            }));
+            entries.push(...items);
+
+            // Store group separately for quick access
+            quickAccessGroups.push({
+                title: group.title || type,
+                items: items
+            });
         }
     }
     if (rawData.verb_conjugations) {
@@ -121,6 +126,21 @@ function normalizeData(rawData, chapterNum = null) {
                     pronunciation: v.pronunciation || '',
                     type: 'verb',
                     chapter: chapterNum
+                });
+            }
+
+            // Add conjugation group to quick access
+            if (v.forms && Array.isArray(v.forms)) {
+                quickAccessGroups.push({
+                    title: `${v.verb} - ${v.meanings || 'verb'}`,
+                    items: v.forms.map(f => ({
+                        greek: f.greek,
+                        english: f.english,
+                        pronunciation: f.pronunciation || '',
+                        type: 'verb',
+                        baseVerb: v.verb,
+                        chapter: chapterNum
+                    }))
                 });
             }
         }
@@ -177,7 +197,88 @@ function normalizeGreek(str) {
 function normalizeString(str) {
     return str ? normalizeGreek(str).toLowerCase() : "";
 }
+function renderQuickAccessButtons() {
+    const listEl = document.getElementById('quick-access-list');
+    const backBtn = document.getElementById('back-to-groups');
 
+    listEl.classList.remove('hidden');
+    backBtn.classList.add('hidden');
+    listEl.innerHTML = '';
+
+    const verbs = quickAccessGroups.filter(g => g.items[0]?.type === 'verb');
+    const vocab = quickAccessGroups.filter(g => g.items[0]?.type !== 'verb');
+
+    // Add verb groups
+    verbs.forEach(group => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.textContent = group.title;
+        btn.addEventListener('click', () => showQuickAccessGroup(group));
+        li.appendChild(btn);
+        listEl.appendChild(li);
+    });
+
+    // Divider
+    if (verbs.length > 0 && vocab.length > 0) {
+        const divider = document.createElement('hr');
+        divider.style.margin = '20px 0';
+        divider.style.border = 'none';
+        divider.style.height = '2px';
+        divider.style.background = '#ddd';
+        listEl.appendChild(divider);
+    }
+
+    // Add vocab groups
+    vocab.forEach(group => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.textContent = group.title;
+        btn.addEventListener('click', () => showQuickAccessGroup(group));
+        li.appendChild(btn);
+        listEl.appendChild(li);
+    });
+}
+function showQuickAccessGroup(group) {
+    const contentEl = document.getElementById('quick-access-content');
+    const listEl = document.getElementById('quick-access-list');
+    const backBtn = document.getElementById('back-to-groups');
+
+    listEl.classList.add('hidden');
+    backBtn.classList.remove('hidden');
+
+    const oldTable = contentEl.querySelector('table');
+    if (oldTable) oldTable.remove();
+
+    const table = document.createElement('table');
+    table.style.width = '100%';
+    table.style.marginTop = '10px';
+    table.style.borderCollapse = 'collapse';
+
+    const headerRow = document.createElement('tr');
+    ['Greek', 'Pronunciation', 'English'].forEach(header => {
+        const th = document.createElement('th');
+        th.textContent = header;
+        th.style.borderBottom = '2px solid #ccc';
+        th.style.padding = '8px';
+        th.style.textAlign = 'left';
+        headerRow.appendChild(th);
+    });
+    table.appendChild(headerRow);
+
+    group.items.forEach(item => {
+        const row = document.createElement('tr');
+        [item.greek, item.pronunciation || '', item.english].forEach(text => {
+            const td = document.createElement('td');
+            td.textContent = text;
+            td.style.padding = '8px';
+            td.style.borderBottom = '1px solid #eee';
+            row.appendChild(td);
+        });
+        table.appendChild(row);
+    });
+
+    contentEl.appendChild(table);
+}
 searchInput.addEventListener('input', () => {
     const query = normalizeString(searchInput.value.trim());
     if (!query) {
@@ -255,4 +356,11 @@ timerToggleBtn.addEventListener('click', () => {
     timerToggleBtn.classList.toggle('active', timerEnabled);
     timerToggleBtn.classList.toggle('inactive', !timerEnabled);
     timerToggleBtn.textContent = timerEnabled ? '⏱️ Timer: ON' : '⏱️ Timer: OFF';
+});
+document.getElementById('back-to-groups').addEventListener('click', () => {
+    const contentEl = document.getElementById('quick-access-content');
+    const oldTable = contentEl.querySelector('table');
+    if (oldTable) oldTable.remove();
+
+    renderQuickAccessButtons();
 });

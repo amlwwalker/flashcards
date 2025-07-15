@@ -110,6 +110,52 @@
   ],
   "vocab_groups": [
     {
+      "group": "possessive_pronouns",
+      "title": "Possessive Pronouns",
+      "items": [
+        { "greek": "Εγώ ➜ μου", "english": "I ➜ my" },
+        { "greek": "Εσύ ➜ σου", "english": "You (singular) ➜ your" },
+        { "greek": "Αυτός ➜ του", "english": "He ➜ his" },
+        { "greek": "Αυτή ➜ της", "english": "She ➜ her" },
+        { "greek": "Αυτό ➜ του", "english": "It ➜ its" },
+        { "greek": "Εμείς ➜ μας", "english": "We ➜ our" },
+        { "greek": "Εσείς ➜ σας", "english": "You (plural/formal) ➜ your" },
+        { "greek": "Αυτοί ➜ τους", "english": "They (masc.) ➜ their" },
+        { "greek": "Αυτές ➜ τους", "english": "They (fem.) ➜ their" },
+        { "greek": "Αυτά ➜ τους", "english": "They (neut.) ➜ their" }
+      ]
+    },
+    {
+      "group": "jobs",
+      "title": "Jobs and Professions",
+      "items": [
+        { "greek": "ο / η γιατρός", "english": "doctor" },
+        { "greek": "μηχανικός", "english": "mechanic" },
+        { "greek": "αστυνομικός", "english": "police man/woman" },
+        { "greek": "φαρμακοποιός", "english": "pharmacist" },
+        { "greek": "τεχνικός", "english": "technical" },
+        { "greek": "δικηγόρος", "english": "lawyer" },
+        { "greek": "υπάλληλος", "english": "employee" },
+        { "greek": "διπλωμάτης", "english": "diplomat" },
+        { "greek": "ταμίας", "english": "cashier" },
+        { "greek": "γραμματέας", "english": "secretary" },
+        { "greek": "συνταξιούχος", "english": "retired" },
+
+        { "greek": "ο κομμωτής / η κομμώτρια", "english": "hairdresser" },
+        { "greek": "καθηγητής / καθηγήτρια", "english": "professor" },
+        { "greek": "πωλητής / πωλήτρια", "english": "seller" },
+        { "greek": "νοσηλευτής / νοσηλεύτρια", "english": "nurse" },
+        { "greek": "μαθητής / μαθήτρια", "english": "student" },
+        { "greek": "φοιτητής / φοιτήτρια", "english": "student at university" },
+        { "greek": "νοσοκόμος / νοσοκόμα", "english": "nurse's assistant" },
+        { "greek": "δάσκαλος / δασκάλα", "english": "teacher" },
+        { "greek": "ταξιτζής / ταξιτζού ή οδηγός ταξί", "english": "taxi driver" },
+        { "greek": "άνεργος / άνεργη", "english": "unemployed" },
+
+        { "greek": "Τι δουλειά κάνεις; / Με τι ασχολείσαι;", "english": "What job do you do?" }
+      ]
+    },
+    {
       "group": "days_of_week",
       "title": "Days of the Week",
       "items": [

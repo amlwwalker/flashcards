@@ -8,42 +8,60 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="flashcard-container">
-    <div class="card">
-        <div id="greek-word">Loading...</div>
-        <div id="pronunciation" class="hidden"></div>
-        <div id="english-translation" class="hidden"></div>
-    </div>
-</div>
+<div class="tab-container">
+    <!-- Flash Cards Tab -->
+    <div id="flashcards-tab" class="tab-content active">
+        <div class="flashcard-container">
+            <div class="card">
+                <div id="greek-word">Loading...</div>
+                <div id="pronunciation" class="hidden"></div>
+                <div id="english-translation" class="hidden"></div>
+            </div>
+        </div>
 
-<div class="controls">
-    <input type="text" id="search-input" placeholder="Search Greek or English..." />
-    <ul id="search-results" class="hidden"></ul>
-    <div class="dropdown-container">
-        <select id="chapter-select">
-            <option value="1">Chapter 1</option>
-            <option value="2">Chapter 2</option>
-            <option value="3">Chapter 3</option>
-            <option value="4">Chapter 4</option>
-            <option value="5">Chapter 5</option>
-            <option value="6">Chapter 6</option>
-            <option value="7">Chapter 7</option>
-        </select>
-        <button id="load-all">📚 All Chapters</button>
-    </div>
+        <div class="controls">
+            <div class="dropdown-container">
+                <select id="chapter-select">
+                    <option value="1">Chapter 1</option>
+                    <option value="2">Chapter 2</option>
+                    <option value="3">Chapter 3</option>
+                    <option value="4">Chapter 4</option>
+                    <option value="5">Chapter 5</option>
+                    <option value="6">Chapter 6</option>
+                    <option value="7">Chapter 7</option>
+                </select>
+                <button id="load-all">📚 All Chapters</button>
+            </div>
 
-    <div class="button-row">
-        <div class="button-row">
-            <button id="timer-toggle" class="toggle-button active">⏱️ Timer: ON</button>
+            <div class="button-row">
+                <button id="timer-toggle" class="toggle-button active">⏱️ Timer: ON</button>
+            </div>
+
+            <div class="button-row">
+                <button id="shuffle-btn">🔀 Shuffle</button>
+                <button id="reveal-btn">👁️ Reveal</button>
+                <button id="next-btn">Next ➡️</button>
+            </div>
         </div>
     </div>
-    <div class="button-row">
-        <button id="shuffle-btn">🔀 Shuffle</button>
-        <button id="reveal-btn">👁️ Reveal</button>
-        <button id="next-btn">Next ➡️</button>
+
+    <!-- Quick Access Tab -->
+    <div id="quickaccess-tab" class="tab-content">
+        <div id="quick-access-content">
+            <button id="back-to-groups" class="hidden" style="margin-bottom: 15px;">⬅️ Back to Groups</button>
+            <ul id="quick-access-list"></ul>
+        </div>
+    </div>
+    <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="flashcards-tab">Flash Cards</button>
+        <button class="tab-btn" data-tab="quickaccess-tab">Quick Access</button>
     </div>
 </div>
 
+<!-- Search is global, outside tabs -->
+<input type="text" id="search-input" placeholder="Search Greek or English..." />
+<ul id="search-results" class="hidden"></ul>
+</body>
 <script src="script.js"></script>
 <script>
     document.getElementById('load-all').addEventListener('click', () => {
@@ -57,5 +75,18 @@
         }
     });
 </script>
-</body>
+<script>
+    document.querySelectorAll(".tab-btn").forEach(button => {
+        button.addEventListener("click", () => {
+            // Remove active class from all buttons and tab contents
+            document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
+            document.querySelectorAll(".tab-content").forEach(tab => tab.classList.remove("active"));
+
+            // Add active class to clicked button and its tab
+            button.classList.add("active");
+            const tabId = button.getAttribute("data-tab");
+            document.getElementById(tabId).classList.add("active");
+        });
+    });
+</script>
 </html>

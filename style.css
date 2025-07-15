@@ -26,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 /* Card styling */
@@ -78,9 +79,11 @@ body {
 
 /* Controls section */
 .controls {
+    margin: 0 auto;
     width: 100%;
     max-width: 500px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Chapter selector */
@@ -124,86 +127,191 @@ body {
 }
 
 /* Button row */
-.button-row {
+.button-row, .tab-row {
     display: flex;
     gap: 10px;
 }
 
-.button-row button {
-    flex: 1;
-    padding: 16px;
-    font-size: 1.2rem;
+.button-row, .tab-row {
+    button {
+        flex: 1;
+        padding: 16px;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+}
+    #next-btn {
+        background-color: #0066cc;
+        color: white;
+    }
+    #next-btn:hover {
+        background-color: #005bb5;
+    }
+
+    #shuffle-btn {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    #shuffle-btn:hover {
+        background-color: #e0e0e0;
+    }
+
+    #reveal-btn {
+        background-color: #ffdf8c;
+        color: #333;
+    }
+    #reveal-btn:hover {
+        background-color: #ffce5a;
+    }
+    #load-all.active-mode {
+        background-color: #0066cc;
+        color: white;
+    }
+    #search-input {
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    #search-results {
+        list-style: none;
+        padding: 0;
+        max-width: 500px;
+        width: 100%;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        max-height: 200px;
+        overflow-y: auto;
+        margin-bottom: 20px;
+    }
+
+    #search-results li {
+        padding: 8px 12px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+    }
+
+    #search-results li:hover {
+        background-color: #f5f5f5;
+    }
+    .toggle-button.active {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .toggle-button.inactive {
+        background-color: #ccc;
+        color: black;
+    }
+    /* Tabs container */
+    .tab-container {
+        width: 100%;
+        max-width: 700px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Tab buttons */
+    .tab-buttons {
+        display: flex;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .tab-btn {
+        flex: 1;
+        padding: 12px;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #f0f0f0;
+        transition: background 0.3s;
+    }
+
+    .tab-btn.active {
+        background-color: #0066cc;
+        color: white;
+    }
+
+    /* Tab content areas */
+    .tab-content {
+        display: none;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+    .tab-content.active {
+        display: flex;
+    }
+#quick-access-list hr {
+    width: 100%;
     border: none;
-    border-radius: 12px;
+    height: 2px;
+    background: #ccc;
+    margin: 16px 0;
+}
+    /* Quick access */
+    #quick-access-list {
+        margin-bottom: 20px;
+        list-style: none;
+        padding: 0;
+    }
+
+    #quick-access-list button {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        margin-bottom: 8px;
+        background: #eee;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    #quick-access-list button:hover {
+        background-color: #ddd;
+    }
+
+    #quick-access-content {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .search-container {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+#quick-access-content table th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+#quick-access-content table tr:hover {
+    background: #f9f9f9;
+}
+#back-to-groups {
+    background-color: #eee;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 1rem;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
-#next-btn {
-    background-color: #0066cc;
-    color: white;
-}
-#next-btn:hover {
-    background-color: #005bb5;
-}
-
-#shuffle-btn {
-    background-color: #f0f0f0;
-    color: #333;
-}
-#shuffle-btn:hover {
-    background-color: #e0e0e0;
-}
-
-#reveal-btn {
-    background-color: #ffdf8c;
-    color: #333;
-}
-#reveal-btn:hover {
-    background-color: #ffce5a;
-}
-#load-all.active-mode {
-    background-color: #0066cc;
-    color: white;
-}
-#search-input {
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-#search-results {
-    list-style: none;
-    padding: 0;
-    max-width: 500px;
-    width: 100%;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    max-height: 200px;
-    overflow-y: auto;
-    margin-bottom: 20px;
-}
-
-#search-results li {
-    padding: 8px 12px;
-    cursor: pointer;
-    border-bottom: 1px solid #eee;
-}
-
-#search-results li:hover {
-    background-color: #f5f5f5;
-}
-.toggle-button.active {
-    background-color: #4caf50;
-    color: white;
-}
-
-.toggle-button.inactive {
-    background-color: #ccc;
-    color: black;
+#back-to-groups:hover {
+    background-color: #ddd;
 }

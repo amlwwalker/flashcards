@@ -123,42 +123,6 @@
           "pronunciation": "É-hoon"
         }
       ]
-    },
-    {
-      "verb": "πάω",
-      "meanings": "to go",
-      "forms": [
-        {
-          "greek": "πάω",
-          "english": "I go",
-          "pronunciation": "pao"
-        },
-        {
-          "greek": "πας",
-          "english": "you go (singular)",
-          "pronunciation": "pas"
-        },
-        {
-          "greek": "πάει",
-          "english": "he/she/it goes",
-          "pronunciation": "paei"
-        },
-        {
-          "greek": "πάμε",
-          "english": "we go",
-          "pronunciation": "pame"
-        },
-        {
-          "greek": "πάτε",
-          "english": "you all go",
-          "pronunciation": "pate"
-        },
-        {
-          "greek": "πάνε",
-          "english": "they go",
-          "pronunciation": "pane"
-        }
-      ]
     }
   ],
   "nouns": [
