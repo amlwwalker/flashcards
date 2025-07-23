@@ -1,6 +1,18 @@
 {
   "vocab_groups": [
     {
+      "group": "se_article_contractions",
+      "title": "Σε + Article Contractions (direction/location)",
+      "items": [
+        { "greek": "στον",   "english": "to/at the (masculine singular)" },
+        { "greek": "στη",    "english": "to/at the (feminine singular)" },
+        { "greek": "στο",    "english": "to/at the (neuter singular)" },
+        { "greek": "στους",  "english": "to/at the (masculine plural)" },
+        { "greek": "στις",   "english": "to/at the (feminine plural)" },
+        { "greek": "στα",    "english": "to/at the (neuter plural)" }
+      ]
+    },
+    {
       "group": "capital_city",
       "title": "Capital Cities",
       "items": [
