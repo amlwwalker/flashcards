@@ -1,17 +1,58 @@
 {
   "vocab_groups": [
     {
-      "group": "se_article_contractions",
-      "title": "Σε + Article Contractions (direction/location)",
+      "group": "definite_articles_by_case",
+      "title": "Definite Articles by Case",
       "items": [
-        { "greek": "στον",   "english": "to/at the (masculine singular)" },
-        { "greek": "στη",    "english": "to/at the (feminine singular)" },
-        { "greek": "στο",    "english": "to/at the (neuter singular)" },
-        { "greek": "στους",  "english": "to/at the (masculine plural)" },
-        { "greek": "στις",   "english": "to/at the (feminine plural)" },
-        { "greek": "στα",    "english": "to/at the (neuter plural)" }
+        {
+          "greek": "ο, η, το, οι, οι, τα",
+          "english": "Nominative – subject of the sentence"
+        },
+        {
+          "greek": "του, της, του, των, των, των",
+          "english": "Genitive – possession, “of …”, many prepositional uses"
+        },
+        {
+          "greek": "τον, τη/την, το, τους, τις, τα",
+          "english": "Accusative – direct object; “to/at/in …” (with prepositions)"
+        },
+        {
+          "greek": "—",
+          "english": "Vocative – direct address (no article used)"
+        }
       ]
     },
+    {
+      "group": "colours",
+      "title": "Colours",
+      "items": [
+        { "greek": "κόκκινο",    "english": "red" },
+        { "greek": "μπλε",        "english": "blue" },
+        { "greek": "πράσινο",     "english": "green" },
+        { "greek": "κίτρινο",     "english": "yellow" },
+        { "greek": "μαύρο",       "english": "black" },
+        { "greek": "άσπρο",       "english": "white" },
+        { "greek": "πορτοκαλί",   "english": "orange" },
+        { "greek": "ροζ",         "english": "pink" },
+        { "greek": "καφέ",        "english": "brown" },
+        { "greek": "γκρι",        "english": "grey" },
+        { "greek": "μωβ",         "english": "purple" },
+        { "greek": "χρυσό",       "english": "gold" },
+        { "greek": "ασημί",       "english": "silver" }
+      ]
+    },
+      {
+        "group": "se_article_contractions",
+        "title": "Σε + Article Contractions (direction/location)",
+        "items": [
+          { "greek": "στον",   "english": "to/at the (masculine singular)" },
+          { "greek": "στη",    "english": "to/at the (feminine singular)" },
+          { "greek": "στο",    "english": "to/at the (neuter singular)" },
+          { "greek": "στους",  "english": "to/at the (masculine plural)" },
+          { "greek": "στις",   "english": "to/at the (feminine plural)" },
+          { "greek": "στα",    "english": "to/at the (neuter plural)" }
+        ]
+      },
     {
       "group": "capital_city",
       "title": "Capital Cities",
