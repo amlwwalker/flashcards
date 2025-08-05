@@ -1,4 +1,310 @@
 {
+  "nouns": [
+    {
+      "greek": "δασκάλα",
+      "english": "teacher (female)",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "δασκάλες",
+      "pronunciation": "das-KAH-la"
+    },
+    {
+      "greek": "μάθημα",
+      "english": "lesson",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "μαθήματα",
+      "pronunciation": "MAH-thee-ma"
+    },
+    {
+      "greek": "διάλειμμα",
+      "english": "break, recess",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "διαλείμματα",
+      "pronunciation": "thee-AH-lee-ma"
+    },
+    {
+      "greek": "τυρόπιτα",
+      "english": "cheese pie",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "τυρόπιτες",
+      "pronunciation": "tee-ROH-pee-ta"
+    },
+    {
+      "greek": "τυρί",
+      "english": "cheese",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "τυριά",
+      "pronunciation": "tee-REE"
+    },
+    {
+      "greek": "πορτοκαλάδα",
+      "english": "orangeade, orange soda",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "πορτοκαλάδες",
+      "pronunciation": "por-toh-kah-LAH-thah"
+    },
+    {
+      "greek": "λεωφορείο",
+      "english": "bus",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "λεωφορεία",
+      "pronunciation": "leh-oh-fo-REE-oh"
+    },
+    {
+      "greek": "σαντουΐτς",
+      "english": "sandwich",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "σαντουΐτς",
+      "pronunciation": "san-doo-EETS"
+    },
+    {
+      "greek": "άσκηση",
+      "english": "exercise",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "ασκήσεις",
+      "pronunciation": "as-KEE-sees"
+    },
+    {
+      "greek": "οικογένεια",
+      "english": "family",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "οικογένειες",
+      "pronunciation": "ee-ko-ye-NEE-ah"
+    },
+    {
+      "greek": "γονείς",
+      "english": "parents",
+      "gender": "masculine",
+      "article": "οι",
+      "plural": "γονείς",
+      "pronunciation": "go-NEES"
+    },
+    {
+      "greek": "παιδί",
+      "english": "child",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "παιδιά",
+      "pronunciation": "peh-THEE"
+    },
+    {
+      "greek": "πατέρας",
+      "english": "father",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "πατέρες",
+      "pronunciation": "pa-TEH-ras"
+    },
+    {
+      "greek": "μπαμπάς",
+      "english": "dad",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "μπαμπάδες",
+      "pronunciation": "bam-PAHS"
+    },
+    {
+      "greek": "μητέρα",
+      "english": "mother",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "μητέρες",
+      "pronunciation": "mee-TEH-rah"
+    },
+    {
+      "greek": "μαμά",
+      "english": "mom",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "μαμάδες",
+      "pronunciation": "ma-MAH"
+    },
+    {
+      "greek": "γιος",
+      "english": "son",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "γιοι",
+      "pronunciation": "ee-YOHS"
+    },
+    {
+      "greek": "κόρη",
+      "english": "daughter",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "κόρες",
+      "pronunciation": "KO-ree"
+    },
+    {
+      "greek": "παππούς",
+      "english": "grandfather",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "παππούδες",
+      "pronunciation": "pa-POOS"
+    },
+    {
+      "greek": "γιαγιά",
+      "english": "grandmother",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "γιαγιάδες",
+      "pronunciation": "ya-YAH"
+    },
+    {
+      "greek": "εγγονός",
+      "english": "grandson",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "εγγονοί",
+      "pronunciation": "en-GO-nos"
+    },
+    {
+      "greek": "εγγονή",
+      "english": "granddaughter",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "εγγονές",
+      "pronunciation": "en-go-NEE"
+    },
+    {
+      "greek": "αδελφός",
+      "english": "brother",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "αδελφοί",
+      "pronunciation": "a-del-FOS"
+    },
+    {
+      "greek": "αδελφή",
+      "english": "sister",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "αδελφές",
+      "pronunciation": "a-del-FEE"
+    },
+    {
+      "greek": "αδέλφια",
+      "english": "siblings",
+      "gender": "neuter",
+      "article": "τα",
+      "plural": "αδέλφια",
+      "pronunciation": "a-DEL-ya"
+    },
+    {
+      "greek": "φίλος",
+      "english": "friend (male), boyfriend",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "φίλοι",
+      "pronunciation": "FEE-los"
+    },
+    {
+      "greek": "φίλη",
+      "english": "friend (female), girlfriend",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "φίλες",
+      "pronunciation": "FEE-lee"
+    },
+    {
+      "greek": "κοπέλα",
+      "english": "girl, girlfriend",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "κοπέλες",
+      "pronunciation": "ko-PEH-la"
+    },
+    {
+      "greek": "σχέση",
+      "english": "relationship",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "σχέσεις",
+      "pronunciation": "she-SEE"
+    },
+    {
+      "greek": "φαγητό",
+      "english": "food",
+      "gender": "neuter",
+      "article": "το",
+      "plural": "φαγητά",
+      "pronunciation": "fa-ye-TOH"
+    },
+    {
+      "greek": "ξάδερφος",
+      "english": "cousin (male)",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "ξάδερφοι",
+      "pronunciation": "ksa-THER-fos"
+    },
+    {
+      "greek": "ξαδέρφη",
+      "english": "cousin (female)",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "ξαδέρφες",
+      "pronunciation": "ksa-THER-fee"
+    },
+    {
+      "greek": "νονός",
+      "english": "godfather",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "νονοί",
+      "pronunciation": "no-NOS"
+    },
+    {
+      "greek": "νονά",
+      "english": "godmother",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "νονές",
+      "pronunciation": "no-NA"
+    },
+    {
+      "greek": "βαφτιστήρας",
+      "english": "godson",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "βαφτιστήρες",
+      "pronunciation": "vaf-tee-STEE-ras"
+    },
+    {
+      "greek": "βαφτιστήρα",
+      "english": "goddaughter",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "βαφτιστήρες",
+      "pronunciation": "vaf-tee-STEE-ra"
+    },
+    {
+      "greek": "θείος",
+      "english": "uncle",
+      "gender": "masculine",
+      "article": "ο",
+      "plural": "θείοι",
+      "pronunciation": "THEE-os"
+    },
+    {
+      "greek": "θεία",
+      "english": "aunt",
+      "gender": "feminine",
+      "article": "η",
+      "plural": "θείες",
+      "pronunciation": "THEE-a"
+    }
+  ],
   "vocab_groups": [
     {
       "group": "definite_articles_by_case",
