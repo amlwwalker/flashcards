@@ -1,0 +1,96 @@
+{
+  "nouns": [
+    { "greek": "σερβιτόρος", "english": "waiter (male)", "gender": "masculine", "article": "ο", "plural": "σερβιτόροι", "pronunciation": "ser-vee-TO-ros" },
+    { "greek": "σερβιτόρα", "english": "waitress (female)", "gender": "feminine", "article": "η", "plural": "σερβιτόρες", "pronunciation": "ser-vee-TO-ra" },
+    { "greek": "καφές", "english": "coffee", "gender": "masculine", "article": "ο", "plural": "καφέδες", "pronunciation": "ka-FÉS" },
+    { "greek": "σοκολάτα", "english": "chocolate", "gender": "feminine", "article": "η", "plural": "σοκολάτες", "pronunciation": "so-ko-LÁ-ta" },
+    { "greek": "παγωτό", "english": "ice cream", "gender": "neuter", "article": "το", "plural": "παγωτά", "pronunciation": "pa-gho-TÓ" },
+    { "greek": "χυμός", "english": "juice", "gender": "masculine", "article": "ο", "plural": "χυμοί", "pronunciation": "hee-MÓS" },
+    { "greek": "ποτό", "english": "alcoholic drink", "gender": "neuter", "article": "το", "plural": "ποτά", "pronunciation": "po-TÓ" },
+    { "greek": "περιοδικό", "english": "magazine", "gender": "neuter", "article": "το", "plural": "περιοδικά", "pronunciation": "pe-ree-o-thee-KÓ" },
+    { "greek": "ρέστα", "english": "change (money)", "gender": "neuter (plural)", "article": "τα", "plural": "ρέστα", "pronunciation": "RÉ-sta" },
+    { "greek": "ψιλά", "english": "small change / coins", "gender": "neuter (plural)", "article": "τα", "plural": "ψιλά", "pronunciation": "psee-LÁ" },
+    { "greek": "απόδειξη", "english": "receipt", "gender": "feminine", "article": "η", "plural": "αποδείξεις", "pronunciation": "a-PO-thee-xee" },
+    { "greek": "μαρκαδόρος", "english": "marker", "gender": "masculine", "article": "ο", "plural": "μαρκαδόροι", "pronunciation": "mar-ka-THÓ-ros" },
+    { "greek": "τυρόπιτα", "english": "cheese pie", "gender": "feminine", "article": "η", "plural": "τυρόπιτες", "pronunciation": "tee-RO-pee-ta" },
+    { "greek": "γαλακτομπούρεκο", "english": "galaktoboureko", "gender": "neuter", "article": "το", "plural": "γαλακτομπούρεκα", "pronunciation": "ga-lak-to-BOU-re-ko" },
+    { "greek": "στέβια", "english": "stevia", "gender": "feminine", "article": "η", "plural": "στέβιες", "pronunciation": "STÉ-vee-a" },
+    { "greek": "ζάχαρη", "english": "sugar", "gender": "feminine", "article": "η", "plural": "ζάχαρες", "pronunciation": "ZÁ-ha-ree" },
+    { "greek": "πράσινο τσάι", "english": "green tea", "gender": "neuter", "article": "το", "plural": "πράσινα τσάγια", "pronunciation": "PRAH-see-no TSA-ee" },
+    { "greek": "πάστα σοκολάτα", "english": "chocolate pastry", "gender": "feminine", "article": "η", "plural": "πάστες σοκολάτας", "pronunciation": "PÁS-ta so-ko-LÁ-ta" },
+    { "greek": "φραπέ", "english": "frappé coffee", "gender": "masculine", "article": "ο", "plural": "φραπέδες", "pronunciation": "fra-PÉ" },
+    { "greek": "καφές φίλτρου", "english": "filter coffee", "gender": "masculine", "article": "ο", "plural": "καφέδες φίλτρου", "pronunciation": "ka-FÉS FÍL-troo" },
+    { "greek": "ελληνικός καφές", "english": "Greek coffee", "gender": "masculine", "article": "ο", "plural": "ελληνικοί καφέδες", "pronunciation": "e-lee-nee-KÓS ka-FÉS" }
+  ],
+  "verbs": [
+    {
+      "verb": "πληρώνω",
+      "meanings": "to pay",
+      "forms": [
+        { "greek": "πληρώνω", "english": "I pay", "pronunciation": "plee-RO-no" },
+        { "greek": "πληρώνεις", "english": "you pay", "pronunciation": "plee-RO-nees" },
+        { "greek": "πληρώνει", "english": "he/she/it pays", "pronunciation": "plee-RO-nee" }
+      ]
+    },
+    {
+      "verb": "τελειώνω",
+      "meanings": "to finish",
+      "forms": [
+        { "greek": "τελείωσα", "english": "I finished", "pronunciation": "te-LÍ-o-sa" }
+      ]
+    },
+    {
+      "verb": "υπάρχω",
+      "meanings": "to exist / there is",
+      "forms": [
+        { "greek": "υπάρχει", "english": "there is", "pronunciation": "ee-PÁR-khee" },
+        { "greek": "υπάρχουν", "english": "there are", "pronunciation": "ee-PÁR-khoon" }
+      ]
+    },
+    {
+      "verb": "επιστρέφω",
+      "meanings": "to return",
+      "forms": [
+        { "greek": "επιστρέφω", "english": "I return", "pronunciation": "e-pee-STRE-fo" }
+      ]
+    },
+    {
+      "verb": "είμαι",
+      "meanings": "to be",
+      "forms": [
+        { "greek": "είμαι", "english": "I am", "pronunciation": "ÉE-me" },
+        { "greek": "είναι", "english": "he/she/it is", "pronunciation": "ÉE-ne" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "greek": "Βεβαίως", "english": "Of course / Certainly", "pronunciation": "ve-VE-os" },
+    { "greek": "Μάλιστα", "english": "Indeed / Right away", "pronunciation": "MÁ-lee-sta" },
+    { "greek": "Ορίστε", "english": "Here you go / Go ahead / Pardon?", "pronunciation": "o-REE-ste" },
+    { "greek": "Κάτι άλλο;", "english": "Anything else?", "pronunciation": "KÁ-tee Á-lo" },
+    { "greek": "Άλλο κάτι;", "english": "Anything else?", "pronunciation": "Á-lo KÁ-tee" },
+    { "greek": "Όλα μαζί", "english": "All together", "pronunciation": "Ó-la ma-ZÍ" },
+    { "greek": "Δεν μ’ αρέσει καθόλου", "english": "I don’t like it at all", "pronunciation": "Then ma-RÉ-see ka-THÓ-loo" },
+    { "greek": "Είστε έτοιμοι;", "english": "Are you ready?", "pronunciation": "ÉE-ste É-tee-mee" },
+    { "greek": "Τι είναι αυτό;", "english": "What is this?", "pronunciation": "tee ÉE-ne af-TÓ" },
+    { "greek": "Πόσο κάνει;", "english": "How much is it?", "pronunciation": "PÓ-so KÁ-nee" },
+    { "greek": "Πόσο έχει;", "english": "How much is it?", "pronunciation": "PÓ-so É-khi" },
+    { "greek": "Πόσο κοστίζει;", "english": "How much does it cost?", "pronunciation": "PÓ-so ko-STÉE-zee" },
+    { "greek": "Μισό λεπτό!", "english": "Just a moment!", "pronunciation": "mee-SÓ lep-TÓ" },
+    { "greek": "Νίκο, τρώμε ένα γλυκό μισό-μισό", "english": "Niko, let’s split a dessert", "pronunciation": "NÉE-ko, TRÓ-me É-na glee-KÓ mee-SÓ mee-SÓ" },
+    { "greek": "Προτιμάς πάστα σοκολάτα;", "english": "Do you prefer chocolate cake?", "pronunciation": "pro-tee-MÁS PÁS-ta so-ko-LÁ-ta" },
+    { "greek": "Αυτό το εισιτήριο είναι φοιτητικό", "english": "This ticket is a student ticket", "pronunciation": "af-TÓ to ee-see-TEE-ree-o ÉE-ne fee-tee-tee-KÓ" },
+    { "greek": "Πάμε;", "english": "Shall we go?", "pronunciation": "PA-me" },
+    { "greek": "Πάμε για ένα καφεδάκι;", "english": "Shall we go for a coffee?", "pronunciation": "PA-me ya É-na ka-fe-THÁ-kee" },
+    { "greek": "Παρακαλώ", "english": "Please / You're welcome", "pronunciation": "pa-ra-ka-LÓ" },
+
+    { "greek": "ενάμισι", "english": "one and a half", "usage": "used with neuter nouns", "pronunciation": "e-NÁ-mee-see" },
+    { "greek": "δεκαέξι", "english": "sixteen", "pronunciation": "the-ka-É-ksee" },
+    { "greek": "σαράντα ένα", "english": "forty-one", "pronunciation": "sa-RÁN-da É-na" },
+    { "greek": "ογδόντα", "english": "eighty", "pronunciation": "og-THÓN-ta" },
+    { "greek": "εννιά", "english": "nine", "pronunciation": "en-NIÁ" },
+    { "greek": "πενήντα", "english": "fifty", "pronunciation": "pe-NEEN-ta" },
+    { "greek": "τρία ευρώ και πενήντα λεπτά", "english": "three euros and fifty cents", "pronunciation": "TRÉE-a ev-RO ke pe-NEEN-da lep-TÁ" },
+    { "greek": "εννιά ευρώ και πενήντα λεπτά", "english": "nine euros and fifty cents", "pronunciation": "en-NIÁ ev-RO ke pe-NEEN-da lep-TÁ" }
+  ]
+}

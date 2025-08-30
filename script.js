@@ -13,7 +13,7 @@ let quickAccessGroups = [];
 
 let timerEnabled = true;
 // set the max number of chapters
-const MAX_CHAPTERS = 8;
+const MAX_CHAPTERS = 10;
 
 async function loadChapters(chapterMode = true, chapterNumber = 1) {
     words = [];

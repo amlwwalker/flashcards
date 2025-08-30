@@ -1,0 +1,58 @@
+{
+  "nouns": [
+    { "greek": "φίλες", "english": "friends (female)", "gender": "feminine", "article": "οι", "plural": "φίλες", "pronunciation": "FEE-les" },
+    { "greek": "κεφάλι", "english": "head", "gender": "neuter", "article": "το", "plural": "κεφάλια", "pronunciation": "ke-FA-lee" },
+    { "greek": "χρώμα", "english": "colour", "gender": "neuter", "article": "το", "plural": "χρώματα", "pronunciation": "HRO-mah" },
+    { "greek": "βρυκόλακας", "english": "vampire (traditional)", "gender": "masculine", "article": "ο", "plural": "βρυκόλακες", "pronunciation": "vree-KO-la-kas" },
+    { "greek": "βαμπίρ", "english": "vampire", "gender": "invariable", "article": "", "plural": "βαμπίρ", "pronunciation": "vam-PEER" },
+    { "greek": "δέντρο", "english": "tree", "gender": "neuter", "article": "το", "plural": "δέντρα", "pronunciation": "THEN-tro" },
+    { "greek": "σύκο", "english": "fig", "gender": "neuter", "article": "το", "plural": "σύκα", "pronunciation": "SEE-ko" }
+  ],
+  "verbs": [
+    {
+      "verb": "πονάω",
+      "meanings": "to hurt",
+      "forms": [
+        { "greek": "πονάει", "english": "it hurts", "pronunciation": "po-NEH-ee" }
+      ]
+    },
+    {
+      "verb": "χάνομαι",
+      "meanings": "to get lost",
+      "forms": [
+        { "greek": "έχω χαθεί", "english": "I am lost", "pronunciation": "EH-ho ha-THEE" }
+      ]
+    },
+    {
+      "verb": "είμαι",
+      "meanings": "to be",
+      "forms": [
+        { "greek": "είμαι άρρωστος", "english": "I am sick (male)", "pronunciation": "EE-me A-ro-stos" },
+        { "greek": "είμαι άρρωστη", "english": "I am sick (female)", "pronunciation": "EE-me A-ro-stee" },
+        { "greek": "είμαι τεμπέλης", "english": "I am lazy (male)", "pronunciation": "EE-me tem-BE-lees" },
+        { "greek": "είμαι τεμπέλα", "english": "I am lazy (female)", "pronunciation": "EE-me tem-BE-la" }
+      ]
+    }
+  ],
+  "phrases": [
+    { "greek": "πονάει το κεφάλι μου", "english": "my head hurts", "pronunciation": "po-NEH-ee to ke-FA-lee moo" },
+    { "greek": "ξανά", "english": "again", "pronunciation": "kssa-NAH" },
+    { "greek": "έχω χαθεί", "english": "I am lost", "pronunciation": "EH-ho ha-THEE" },
+    { "greek": "ο ίδιος / η ίδια / το ίδιο", "english": "the same", "pronunciation": "o EE-thee-os / ee EE-thee-a / to EE-thee-o" },
+    { "greek": "μερικές φορές", "english": "sometimes", "pronunciation": "meh-ree-KES fo-RES" },
+    { "greek": "καμιά φορά", "english": "sometimes / once in a while", "pronunciation": "ka-MYA fo-RA" },
+    { "greek": "πολύ μικρό", "english": "too small", "pronunciation": "po-LEE mee-KRO" },
+    { "greek": "υπερβολικά μικρό", "english": "excessively small", "pronunciation": "ee-per-vo-lee-KA mee-KRO" },
+    { "greek": "πότε", "english": "when? (question)", "pronunciation": "PO-teh" },
+    { "greek": "όταν", "english": "when (in statements)", "pronunciation": "O-tan" },
+    { "greek": "συνήθως", "english": "usually", "pronunciation": "see-NEE-thos" },
+    { "greek": "έφαγα πόρτα", "english": "I got rejected / turned away", "pronunciation": "E-fa-ga POR-ta" },
+    { "greek": "ακριβός / ακριβή / ακριβό", "english": "expensive", "pronunciation": "a-kree-VOHS / a-kree-VEE / a-kree-VO" },
+    { "greek": "οι εποχές", "english": "the seasons", "pronunciation": "ee e-po-HES" },
+    { "greek": "άνοιξη", "english": "spring", "pronunciation": "A-nee-xee" },
+    { "greek": "καλοκαίρι", "english": "summer", "pronunciation": "ka-lo-KEH-ree" },
+    { "greek": "φθινόπωρο", "english": "autumn / fall", "pronunciation": "fth-ee-NO-po-ro" },
+    { "greek": "χειμώνας", "english": "winter", "pronunciation": "hee-MO-nas" },
+    { "greek": "δεν έχω ποτέ", "english": "I have never", "pronunciation": "then E-ho po-TEH" }
+  ]
+}
