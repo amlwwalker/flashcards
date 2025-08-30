@@ -54,5 +54,97 @@
     { "greek": "φθινόπωρο", "english": "autumn / fall", "pronunciation": "fth-ee-NO-po-ro" },
     { "greek": "χειμώνας", "english": "winter", "pronunciation": "hee-MO-nas" },
     { "greek": "δεν έχω ποτέ", "english": "I have never", "pronunciation": "then E-ho po-TEH" }
+  ],
+  "vocab_groups": [
+    {
+      "group": "a-privative",
+      "title": "Negation with α-",
+      "items": [
+        {
+          "greek": "άθεος",
+          "english": "atheist"
+        },
+        {
+          "greek": "ανώριμος",
+          "english": "immature"
+        },
+        {
+          "greek": "άγνωστος",
+          "english": "unknown"
+        },
+        {
+          "greek": "άφωνος",
+          "english": "voiceless / speechless"
+        },
+        {
+          "greek": "άδικος",
+          "english": "unjust"
+        },
+        {
+          "greek": "άπειρος",
+          "english": "inexperienced / infinite"
+        },
+        {
+          "greek": "ανίκανος",
+          "english": "incapable"
+        },
+        {
+          "greek": "ατελείωτος",
+          "english": "endless"
+        },
+        {
+          "greek": "αδύναμος",
+          "english": "weak"
+        },
+        {
+          "greek": "άνοστος",
+          "english": "tasteless"
+        },
+        {
+          "greek": "ανεξάρτητος",
+          "english": "independent"
+        },
+        {
+          "greek": "ανόητος",
+          "english": "foolish"
+        },
+        {
+          "greek": "αδιάφορος",
+          "english": "indifferent"
+        },
+        {
+          "greek": "ακατάλληλος",
+          "english": "unsuitable"
+        },
+        {
+          "greek": "ακριβής",
+          "english": "exact / accurate"
+        },
+        {
+          "greek": "ανακριβής",
+          "english": "inaccurate"
+        },
+        {
+          "greek": "ασεβής",
+          "english": "disrespectful / impious"
+        },
+        {
+          "greek": "ακατανόητος",
+          "english": "incomprehensible"
+        },
+        {
+          "greek": "αχάριστος",
+          "english": "ungrateful"
+        },
+        {
+          "greek": "ανυπόμονος",
+          "english": "impatient"
+        },
+        {
+          "greek": "ανέντιμος",
+          "english": "dishonest"
+        }
+      ]
+    }
   ]
 }
