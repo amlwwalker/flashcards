@@ -6,7 +6,14 @@
     { "greek": "βρυκόλακας", "english": "vampire (traditional)", "gender": "masculine", "article": "ο", "plural": "βρυκόλακες", "pronunciation": "vree-KO-la-kas" },
     { "greek": "βαμπίρ", "english": "vampire", "gender": "invariable", "article": "", "plural": "βαμπίρ", "pronunciation": "vam-PEER" },
     { "greek": "δέντρο", "english": "tree", "gender": "neuter", "article": "το", "plural": "δέντρα", "pronunciation": "THEN-tro" },
-    { "greek": "σύκο", "english": "fig", "gender": "neuter", "article": "το", "plural": "σύκα", "pronunciation": "SEE-ko" }
+    { "greek": "σύκο", "english": "fig", "gender": "neuter", "article": "το", "plural": "σύκα", "pronunciation": "SEE-ko" },
+    { "greek": "τασάκι", "english": "ashtray", "gender": "neuter", "article": "το", "plural": "τασάκια", "pronunciation": "ta-SA-ki" },
+    { "greek": "κουρείο", "english": "barbershop", "gender": "neuter", "article": "το", "plural": "κουρεία", "pronunciation": "kou-REE-o" },
+    { "greek": "κομμωτήριο", "english": "hair salon", "gender": "neuter", "article": "το", "plural": "κομμωτήρια", "pronunciation": "ko-mo-TEE-rio" },
+    { "greek": "μπάντα", "english": "band", "gender": "feminine", "article": "η", "plural": "μπάντες", "pronunciation": "BAN-da" },
+    { "greek": "ορχήστρα", "english": "orchestra / band", "gender": "feminine", "article": "η", "plural": "ορχήστρες", "pronunciation": "or-HIS-tra" },
+    { "greek": "διάβολος", "english": "devil", "gender": "masculine", "article": "ο", "plural": "διάβολοι", "pronunciation": "THEE-a-vo-los" },
+    { "greek": "όνομα", "english": "name", "gender": "neuter", "article": "το", "plural": "ονόματα", "pronunciation": "O-no-ma" }
   ],
   "verbs": [
     {
@@ -32,6 +39,65 @@
         { "greek": "είμαι τεμπέλης", "english": "I am lazy (male)", "pronunciation": "EE-me tem-BE-lees" },
         { "greek": "είμαι τεμπέλα", "english": "I am lazy (female)", "pronunciation": "EE-me tem-BE-la" }
       ]
+    },
+    {
+      "verb": "περιμένω",
+      "meanings": "to wait",
+      "forms": [
+        { "greek": "περιμένω", "english": "I wait / I am waiting", "pronunciation": "pe-ree-ME-no" }
+      ]
+    },
+    {
+      "verb": "θέλω",
+      "meanings": "to want",
+      "forms": [
+        { "greek": "θέλω", "english": "I want", "pronunciation": "THE-lo" },
+        { "greek": "θέλεις", "english": "you want", "pronunciation": "THE-lees" },
+        { "greek": "θέλει", "english": "he/she/it wants", "pronunciation": "THE-lee" },
+        { "greek": "θέλουμε", "english": "we want", "pronunciation": "THE-loo-me" },
+        { "greek": "θέλετε", "english": "you (pl.) want", "pronunciation": "THE-le-te" },
+        { "greek": "θέλουν(ε)", "english": "they want", "pronunciation": "THE-loo-ne" }
+      ]
+    },
+    {
+      "verb": "λέω",
+      "meanings": "to say / to call",
+      "forms": [
+        { "greek": "λέω", "english": "I say", "pronunciation": "LE-o" },
+        { "greek": "λες", "english": "you say", "pronunciation": "LES" },
+        { "greek": "λέει", "english": "he/she/it says", "pronunciation": "LE-i" },
+        { "greek": "λέμε", "english": "we say", "pronunciation": "LE-me" },
+        { "greek": "λέτε", "english": "you (pl.) say", "pronunciation": "LE-te" },
+        { "greek": "λένε", "english": "they say", "pronunciation": "LE-ne" }
+      ]
+    },
+    {
+      "verb": "ξεχνάω",
+      "meanings": "to forget",
+      "forms": [
+        { "greek": "ξεχνάω / ξεχνώ", "english": "I forget", "pronunciation": "kse-HNA-o / kse-HNO" },
+        { "greek": "ξέχασα", "english": "I forgot", "pronunciation": "KSE-cha-sa" }
+      ]
+    },
+    {
+      "verb": "πάω",
+      "meanings": "to go",
+      "forms": [
+        { "greek": "πάω", "english": "I go", "pronunciation": "PA-o" },
+        { "greek": "έχω πάει", "english": "I have been / I have gone", "pronunciation": "E-ho PA-i" }
+      ]
+    },
+    {
+      "verb": "μοιάζω",
+      "meanings": "to look like / to resemble",
+      "forms": [
+        { "greek": "μοιάζω", "english": "I look like", "pronunciation": "MEE-a-zo" },
+        { "greek": "μοιάζεις", "english": "you look like", "pronunciation": "MEE-a-zees" },
+        { "greek": "μοιάζει", "english": "he/she/it looks like", "pronunciation": "MEE-a-zee" },
+        { "greek": "μοιάζουμε", "english": "we look like", "pronunciation": "MEE-a-zou-me" },
+        { "greek": "μοιάζετε", "english": "you (pl.) look like", "pronunciation": "MEE-a-ze-te" },
+        { "greek": "μοιάζουν", "english": "they look like", "pronunciation": "MEE-a-zoun" }
+      ]
     }
   ],
   "phrases": [
@@ -53,7 +119,38 @@
     { "greek": "καλοκαίρι", "english": "summer", "pronunciation": "ka-lo-KEH-ree" },
     { "greek": "φθινόπωρο", "english": "autumn / fall", "pronunciation": "fth-ee-NO-po-ro" },
     { "greek": "χειμώνας", "english": "winter", "pronunciation": "hee-MO-nas" },
-    { "greek": "δεν έχω ποτέ", "english": "I have never", "pronunciation": "then E-ho po-TEH" }
+    { "greek": "δεν έχω ποτέ", "english": "I have never", "pronunciation": "then E-ho po-TEH" },
+    { "greek": "Μπορώ να έχω ένα τασάκι;", "english": "Can I have an ashtray?", "pronunciation": "bo-RO na E-ho e-na ta-SA-ki" },
+    { "greek": "Υπάρχει κουρείο;", "english": "Is there a barbershop?", "pronunciation": "ee-PAR-khi kou-REE-o" },
+    { "greek": "Υπάρχει κομμωτήριο για άντρες;", "english": "Is there a hairdresser for men?", "pronunciation": "ee-PAR-khi ko-mo-TEE-rio ya AN-dres" },
+    { "greek": "Πότε παίζουμε;", "english": "When do we play?", "pronunciation": "PO-te PE-zou-me" },
+    { "greek": "Πότε παίζουμε τάβλι;", "english": "When do we play backgammon?", "pronunciation": "PO-te PE-zou-me TAV-li" },
+    { "greek": "Νέοι φίλοι", "english": "new friends (masc./mixed)", "pronunciation": "NE-i FEE-li" },
+    { "greek": "Νέες φίλες", "english": "new friends (fem.)", "pronunciation": "NE-es FEE-les" },
+    { "greek": "Πού είναι η μπάντα;", "english": "Where is the band?", "pronunciation": "POU EE-ne i BAN-da" },
+    { "greek": "Αυτοί είναι η μπάντα.", "english": "They are the band.", "pronunciation": "af-TEE EE-ne i BAN-da" },
+    { "greek": "Για απόψε", "english": "For tonight", "pronunciation": "ya a-POP-se" },
+    { "greek": "Είστε η μπάντα για απόψε;", "english": "Are you the band for tonight?", "pronunciation": "EES-te i BAN-da ya a-POP-se" },
+    { "greek": "σαν", "english": "like / as", "pronunciation": "san" },
+    { "greek": "Ένα ακόμα ποτήρι, παρακαλώ.", "english": "Another glass, please.", "pronunciation": "E-na a-KO-ma po-TEE-ri, pa-ra-ka-LO" },
+    { "greek": "Τι θέλατε;", "english": "What would you like? / What did you want?", "pronunciation": "Ti THE-la-te" },
+    { "greek": "παπάρα", "english": "dipping bread in oil/soup (also slang: idiot/jerk)", "pronunciation": "pa-PA-ra" },
+    { "greek": "μαλάκας", "english": "jerk / asshole (also mate, informal)", "pronunciation": "ma-LA-kas" },
+    { "greek": "Είμαι σε άλλον πλανήτη.", "english": "I am on another planet.", "pronunciation": "EE-me se A-loon pla-NEE-ti" },
+    { "greek": "Είμαι στον κόσμο μου.", "english": "I’m in my own world / spaced out.", "pronunciation": "EE-me ston KOZ-mo mou" },
+    { "greek": "Πίσω στην πραγματικότητα.", "english": "Back to reality.", "pronunciation": "PEE-so stin prag-ma-ti-KO-ti-ta" },
+    { "greek": "Θα ήθελα έναν ακόμα καφέ για έξω και τον λογαριασμό, παρακαλώ.", "english": "I would like another coffee to go and the bill, please.", "pronunciation": "Tha EE-the-la E-nan a-KO-ma ka-FE ya EX-o ke ton lo-ga-ria-SMO, pa-ra-ka-LO" },
+    { "greek": "Έναν ακόμα καφέ για έξω και τον λογαριασμό.", "english": "Another coffee to go and the bill.", "pronunciation": "E-nan a-KO-ma ka-FE ya EX-o ke ton lo-ga-ria-SMO" },
+    { "greek": "Τον λένε Γιάννη.", "english": "His name is Giannis.", "pronunciation": "Ton LE-ne YAN-ni" },
+    { "greek": "Την λένε Μαρία.", "english": "Her name is Maria.", "pronunciation": "Tin LE-ne Ma-REE-a" },
+    { "greek": "Το όνομά μου είναι Αλέξ.", "english": "My name is Alex.", "pronunciation": "To O-no-MA mou EE-ne A-leks" },
+    { "greek": "Πώς σε λένε;", "english": "What’s your name? (informal)", "pronunciation": "Pos se LE-ne" },
+    { "greek": "Ποιο είναι το όνομά σου;", "english": "What is your name? (formal)", "pronunciation": "Pio EE-ne to O-no-MA sou" },
+    { "greek": "Ξέχασα.", "english": "I forgot.", "pronunciation": "KSE-cha-sa" },
+    { "greek": "δίπλα σε", "english": "next to / beside", "pronunciation": "DEE-pla se" },
+    { "greek": "Όχι, δεν έχω πάει ποτέ στην Ιθάκη.", "english": "No, I have never been to Ithaca.", "pronunciation": "O-hi, then E-ho PA-i PO-te stin I-THA-ki" },
+    { "greek": "Έχω πάει μόνο στη Κεφαλονιά.", "english": "I have only been to Kefalonia.", "pronunciation": "E-ho PA-i MO-no sti Ke-fa-lo-NIA" },
+    { "greek": "Μοιάζεις με νίντζα", "english": "You look like a ninja", "pronunciation": "MEE-a-zees me NEEN-dza" }
   ],
   "vocab_groups": [
     {
